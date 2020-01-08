@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCE</title>
+  <link type="image/x-icon" rel="icon" href="img/icone.ico"/>
+  <link type="text/css" rel="stylesheet" href="css/estilocard.css"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+</head>
+
+<style>
+  body {
+    background-image: url("img/estoqueaddasset.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<body>
+  <main>
+
+    <div class="row editar">
+      <div class="col s12 l4 offset-l4">
+        <div class="card">
+
+          <div class="card-action teal accent-4 white-text center">
+            <h4 class="titulo">SCE - ASSET MANAGER</h4>
+            <th:block th:include="validacao"></th:block>
+          </div>
+
+          <div class="card-content">
+
+            <!-- Form com os dados de Asset -->
+            <form method="post" th:each="estoque : ${estoques}" id="formestoque">
+              <hr>
+              <label>***Cadastro Estoque***</label>
+              <br>
+              <br>
+              <label>Asset tag: </label><label th:text="${estoque.assettag}"></label>
+              <br>
+              <label>Modelo: </label><label th:text="${estoque.modelo}"></label>
+              <br>
+              <label>N.Serie: </label><label th:text="${estoque.serie}"></label>
+              <br>
+              <label>Tipo: </label><label th:text="${estoque.tipo}"></label>
+              <br>
+              <label>Fabricante: </label><label th:text="${estoque.fabri}"></label>
+              <br>
+              <label>Propriedade: </label><label th:text="${estoque.propri}"></label>
+              <br>
+              <br>
+              <label>Localidade: ESTOQUE </label>
+              <br>
+              <label>Status do ativo: PARADO </label>
+              <br>
+              <label>N.Fiscal: </label><label th:text="${estoque.nfiscal}"></label>
+              <br>
+              <hr>
+              <br>
+            </form>
+
+            <form method="post" th:each="estoque : ${estoques}" id="formativo">
+              <hr>
+              <label>***Cadastro Saida***</label>
+              <br>
+              <br>
+              <label>Asset tag: </label><label th:text="${estoque.assettag}"></label>
+              <br>
+              <label>Hostname: </label><label th:text="${estoque.hostname}"></label>
+              <br>
+              <label>Usuario: </label><label th:text="${estoque.usuario}"></label>
+              <br>
+              <label>Login: </label><label th:text="${estoque.login}"></label>
+              <br>
+              <label>Localidade: </label><label th:text="${estoque.local}"></label>
+              <br>
+              <br>
+              <label>Modelo: </label><label th:text="${estoque.modelo}"></label>
+              <br>
+              <label>N.Serie: </label><label th:text="${estoque.serie}"></label>
+              <br>
+              <label>Tipo: </label><label th:text="${estoque.tipo}"></label>
+              <br>
+              <label>Fabricante: </label><label th:text="${estoque.fabri}"></label>
+              <br>
+              <label>Propriedade: </label><label th:text="${estoque.propri}"></label>
+              <br>
+              <br>
+              <label>Status do ativo: ATIVO </label>
+              <br>
+              <hr>
+              <br>
+            </form>
+
+            <form method="post" th:each="estoque : ${estoques}" id="formdescarte">
+              <hr>
+              <label>***Cadastro Descarte***</label>
+              <br>
+              <br>
+              <label>Asset tag: </label><label th:text="${estoque.assettag}"></label>
+              <br>
+              <label>Modelo: </label><label th:text="${estoque.modelo}"></label>
+              <br>
+              <label>N.Serie: </label><label th:text="${estoque.serie}"></label>
+              <br>
+              <label>Tipo: </label><label th:text="${estoque.tipo}"></label>
+              <br>
+              <label>Fabricante: </label><label th:text="${estoque.fabri}"></label>
+              <br>
+              <label>Propriedade: </label><label th:text="${estoque.propri}"></label>
+              <br>
+              <br>
+              <label>Status do ativo: DESCARTE </label>
+              <br>
+              <hr>
+              <br>
+            </form>
+
+            <!-- Inserir o chamado na tabela -->
+            <form method="post" th:each="estoque : ${estoques}">
+
+              <div class="invisivel">
+                <input type="text" th:value="${estoque.assettag}" name="assettag">
+                <input type="text" th:value="${estoque.hostname}" name="hostname">
+                <input type="text" th:value="${estoque.modelo}" name="modelo">
+                <input type="text" th:value="${estoque.serie}" name="serie">
+                <input type="text" th:value="${estoque.tipo}" name="tipo">
+                <input type="text" th:value="${estoque.fabri}" name="fabri">
+                <input type="text" th:value="${estoque.propri}" name="propri">
+                <input type="text" th:value="${estoque.local}" name="local">
+                <input type="text" th:value="${estoque.usuario}" name="usuario">
+                <input type="text" th:value="${estoque.login}" name="login">
+                <input type="text" th:value="${estoque.nfiscal}" name="nfiscal">
+                <input id="stdoativo" type="text" th:value="${estoque.stdoativo}" name="stdoativo">
+                <input type="text" value="VITOR MANAGER" name="tecatman">
+                <input type="text" value="Vitor" name="tecresp">
+                <input type="text" value="SIM" name="posdoativo">
+              </div>
+
+              <label class="active" for="iptcadcham">Numero do Chamado</label>
+              <input type="text" th:value="${estoque.cham}" maxlength="10" name="cham" class="validate" required="required"/>
+
+              <div class="center-align">
+                <button class="modal-close btn-floating btn-large waves-effect waves-light blue" type="submit">
+                  <i class="material-icons">add</i></button>
+              </div>
+
+            </form>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/filtroaddasset.js"></script>
+    <script src="js/framework.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  </main>
+</body>
+
+</html>

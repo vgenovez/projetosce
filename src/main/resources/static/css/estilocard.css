@@ -1,0 +1,52 @@
+.titulo {
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+.estilo{
+  margin-top: 40px;
+}
+
+.editar{
+  margin-top: 10px;
+}
+
+.estilo label{
+  font-size: 16px;
+  color:#ccc;
+}
+
+.editar label{
+  font-size: 16px;
+  color:#ccc;
+}
+
+.editar th{
+  color:#ccc;
+}
+
+.editar tr{
+  color:#ccc;
+}
+
+.estilo .card {
+  background: rgba(0, 0, 0, .6);
+}
+
+.editar .card {
+  background: rgba(0, 0, 0, .6);
+}
+
+.estilo input{
+  font-size: 20px !important;
+  color: #fff;
+}
+
+.editar input{
+  font-size: 20px !important;
+  color: #fff;
+}
+
+.invisivel {
+	display: none;
+}
+
