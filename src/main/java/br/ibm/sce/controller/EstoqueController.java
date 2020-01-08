@@ -1,4 +1,4 @@
-package br.ibm.sce;
+package br.ibm.sce.controller;
 
 import javax.validation.Valid;
 
