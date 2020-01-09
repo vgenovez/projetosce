@@ -1,0 +1,718 @@
+2020-01-08 12:59:35,954 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-08 13:00:25,607 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-08 13:00:42,117 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sce/src/main/java
+2020-01-08 13:00:42,129 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sce/src/main/resources
+2020-01-08 13:00:42,146 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /sce/src/main/resources
+2020-01-08 13:00:42,151 [Worker-5: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /sce/src/test/java
+2020-01-08 13:00:43,197 [Worker-5: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 36 sec
+2020-01-08 13:00:49,580 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 13:00:49,600 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 13:00:49,671 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-08 13:00:51,052 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 13:00:51,052 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-08 13:53:31,879 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 13:53:31,887 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 13:53:31,901 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-08 13:53:31,907 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 13:53:31,907 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-08 13:54:03,344 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 13:54:03,348 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 13:54:03,443 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-08 13:54:03,462 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 13:54:03,463 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-08 21:28:48,273 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-01-08 21:31:25,372 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.produtos:api-rest:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\produtos-apirest-master\pom.xml.
+2020-01-08 21:31:37,735 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-rest/src/main/java
+2020-01-08 21:31:37,736 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-rest/src/main/resources
+2020-01-08 21:31:37,737 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /api-rest/src/main/resources
+2020-01-08 21:31:37,739 [Worker-11: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /api-rest/src/test/java
+2020-01-08 21:31:38,246 [Worker-11: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 23 sec
+2020-01-08 21:31:41,960 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:31:41,969 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 21:31:42,155 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-08 21:31:42,161 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:31:42,161 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\produtos-apirest-master\src\test\resources
+2020-01-08 21:32:07,696 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eventosapp:eventosapp:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\cursospringboot-master\pom.xml.
+2020-01-08 21:32:14,403 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eventosapp/src/main/java
+2020-01-08 21:32:14,403 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eventosapp/src/main/resources
+2020-01-08 21:32:14,404 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /eventosapp/src/main/resources
+2020-01-08 21:32:14,407 [Worker-0: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /eventosapp/src/test/java
+2020-01-08 21:32:14,752 [Worker-0: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 13 sec
+2020-01-08 21:32:19,245 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:32:19,252 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 21:32:19,337 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-08 21:32:20,111 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:32:20,111 [Worker-15: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\cursospringboot-master\src\test\resources
+2020-01-08 21:34:05,545 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.0.RELEASE/spring-boot-maven-plugin-1.4.0.RELEASE.pom
+2020-01-08 21:34:05,858 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.0.RELEASE/spring-boot-maven-plugin-1.4.0.RELEASE.pom
+2020-01-08 21:34:06,150 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.4.0.RELEASE/spring-boot-tools-1.4.0.RELEASE.pom
+2020-01-08 21:34:06,372 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-tools/1.4.0.RELEASE/spring-boot-tools-1.4.0.RELEASE.pom
+2020-01-08 21:34:06,661 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.4.0.RELEASE/spring-boot-parent-1.4.0.RELEASE.pom
+2020-01-08 21:34:07,096 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-parent/1.4.0.RELEASE/spring-boot-parent-1.4.0.RELEASE.pom
+2020-01-08 21:34:07,379 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.4.0.RELEASE/spring-boot-dependencies-1.4.0.RELEASE.pom
+2020-01-08 21:34:07,987 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-dependencies/1.4.0.RELEASE/spring-boot-dependencies-1.4.0.RELEASE.pom
+2020-01-08 21:34:08,197 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.2.RELEASE/spring-framework-bom-4.3.2.RELEASE.pom
+2020-01-08 21:34:08,426 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/spring-framework-bom/4.3.2.RELEASE/spring-framework-bom-4.3.2.RELEASE.pom
+2020-01-08 21:34:08,710 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Hopper-SR2/spring-data-releasetrain-Hopper-SR2.pom
+2020-01-08 21:34:08,937 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/spring-data-releasetrain/Hopper-SR2/spring-data-releasetrain-Hopper-SR2.pom
+2020-01-08 21:34:09,222 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.8.2.RELEASE/spring-data-build-1.8.2.RELEASE.pom
+2020-01-08 21:34:09,448 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/data/build/spring-data-build/1.8.2.RELEASE/spring-data-build-1.8.2.RELEASE.pom
+2020-01-08 21:34:09,734 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.1.RELEASE/spring-integration-bom-4.3.1.RELEASE.pom
+2020-01-08 21:34:09,955 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/integration/spring-integration-bom/4.3.1.RELEASE/spring-integration-bom-4.3.1.RELEASE.pom
+2020-01-08 21:34:10,246 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/4.1.1.RELEASE/spring-security-bom-4.1.1.RELEASE.pom
+2020-01-08 21:34:10,471 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-bom/4.1.1.RELEASE/spring-security-bom-4.1.1.RELEASE.pom
+2020-01-08 21:34:10,758 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.0.RELEASE/spring-boot-maven-plugin-1.4.0.RELEASE.jar
+2020-01-08 21:34:10,982 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-maven-plugin/1.4.0.RELEASE/spring-boot-maven-plugin-1.4.0.RELEASE.jar
+2020-01-08 21:34:12,312 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.alura.listavip:listavip:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\springboot-aula5\Aula-5\pom.xml.
+2020-01-08 21:34:14,649 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jetty/1.3.6.RELEASE/spring-boot-starter-jetty-1.3.6.RELEASE.pom
+2020-01-08 21:34:14,867 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jetty/1.3.6.RELEASE/spring-boot-starter-jetty-1.3.6.RELEASE.pom
+2020-01-08 21:34:15,161 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.17.v20160517/jetty-servlets-9.2.17.v20160517.pom
+2020-01-08 21:34:15,384 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.17.v20160517/jetty-servlets-9.2.17.v20160517.pom
+2020-01-08 21:34:15,571 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.17.v20160517/jetty-project-9.2.17.v20160517.pom
+2020-01-08 21:34:16,007 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-project/9.2.17.v20160517/jetty-project-9.2.17.v20160517.pom
+2020-01-08 21:34:16,250 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/23/jetty-parent-23.pom
+2020-01-08 21:34:16,436 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-parent/23/jetty-parent-23.pom
+2020-01-08 21:34:16,697 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.17.v20160517/jetty-continuation-9.2.17.v20160517.pom
+2020-01-08 21:34:16,878 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.17.v20160517/jetty-continuation-9.2.17.v20160517.pom
+2020-01-08 21:34:17,107 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.pom
+2020-01-08 21:34:17,328 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.pom
+2020-01-08 21:34:17,619 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.pom
+2020-01-08 21:34:17,842 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.pom
+2020-01-08 21:34:18,130 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.pom
+2020-01-08 21:34:18,323 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.pom
+2020-01-08 21:34:18,516 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.17.v20160517/jetty-webapp-9.2.17.v20160517.pom
+2020-01-08 21:34:18,762 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.17.v20160517/jetty-webapp-9.2.17.v20160517.pom
+2020-01-08 21:34:19,052 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.17.v20160517/jetty-xml-9.2.17.v20160517.pom
+2020-01-08 21:34:19,281 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.17.v20160517/jetty-xml-9.2.17.v20160517.pom
+2020-01-08 21:34:19,564 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.pom
+2020-01-08 21:34:19,795 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.pom
+2020-01-08 21:34:20,076 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.pom
+2020-01-08 21:34:20,260 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.pom
+2020-01-08 21:34:20,487 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.pom
+2020-01-08 21:34:20,807 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.pom
+2020-01-08 21:34:21,100 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2020-01-08 21:34:21,323 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.pom
+2020-01-08 21:34:21,612 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.17.v20160517/websocket-server-9.2.17.v20160517.pom
+2020-01-08 21:34:21,843 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.17.v20160517/websocket-server-9.2.17.v20160517.pom
+2020-01-08 21:34:22,124 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.2.17.v20160517/websocket-parent-9.2.17.v20160517.pom
+2020-01-08 21:34:22,352 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-parent/9.2.17.v20160517/websocket-parent-9.2.17.v20160517.pom
+2020-01-08 21:34:22,636 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.17.v20160517/websocket-common-9.2.17.v20160517.pom
+2020-01-08 21:34:22,857 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.17.v20160517/websocket-common-9.2.17.v20160517.pom
+2020-01-08 21:34:23,151 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.17.v20160517/websocket-api-9.2.17.v20160517.pom
+2020-01-08 21:34:23,376 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.17.v20160517/websocket-api-9.2.17.v20160517.pom
+2020-01-08 21:34:23,660 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.17.v20160517/websocket-client-9.2.17.v20160517.pom
+2020-01-08 21:34:23,890 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.17.v20160517/websocket-client-9.2.17.v20160517.pom
+2020-01-08 21:34:24,172 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.2.17.v20160517/websocket-servlet-9.2.17.v20160517.pom
+2020-01-08 21:34:24,393 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.2.17.v20160517/websocket-servlet-9.2.17.v20160517.pom
+2020-01-08 21:34:24,685 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.17.v20160517/javax-websocket-server-impl-9.2.17.v20160517.pom
+2020-01-08 21:34:24,909 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.17.v20160517/javax-websocket-server-impl-9.2.17.v20160517.pom
+2020-01-08 21:34:25,195 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/9.2.17.v20160517/jetty-annotations-9.2.17.v20160517.pom
+2020-01-08 21:34:25,419 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/9.2.17.v20160517/jetty-annotations-9.2.17.v20160517.pom
+2020-01-08 21:34:25,708 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.2.17.v20160517/jetty-plus-9.2.17.v20160517.pom
+2020-01-08 21:34:25,933 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.2.17.v20160517/jetty-plus-9.2.17.v20160517.pom
+2020-01-08 21:34:26,221 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.2.17.v20160517/jetty-jndi-9.2.17.v20160517.pom
+2020-01-08 21:34:26,443 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.2.17.v20160517/jetty-jndi-9.2.17.v20160517.pom
+2020-01-08 21:34:26,731 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+2020-01-08 21:34:26,960 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.pom
+2020-01-08 21:34:27,244 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.1/asm-5.0.1.pom
+2020-01-08 21:34:27,465 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.1/asm-5.0.1.pom
+2020-01-08 21:34:27,756 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.1/asm-parent-5.0.1.pom
+2020-01-08 21:34:27,984 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-parent/5.0.1/asm-parent-5.0.1.pom
+2020-01-08 21:34:28,198 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.1/asm-commons-5.0.1.pom
+2020-01-08 21:34:28,388 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.1/asm-commons-5.0.1.pom
+2020-01-08 21:34:28,576 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.1/asm-tree-5.0.1.pom
+2020-01-08 21:34:28,806 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.1/asm-tree-5.0.1.pom
+2020-01-08 21:34:29,088 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.2.17.v20160517/javax-websocket-client-impl-9.2.17.v20160517.pom
+2020-01-08 21:34:29,317 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.2.17.v20160517/javax-websocket-client-impl-9.2.17.v20160517.pom
+2020-01-08 21:34:29,599 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.pom
+2020-01-08 21:34:29,822 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.pom
+2020-01-08 21:34:30,111 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-all/1.0/javax.websocket-all-1.0.pom
+2020-01-08 21:34:30,340 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-all/1.0/javax.websocket-all-1.0.pom
+2020-01-08 21:34:30,623 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2020-01-08 21:34:30,846 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/net/java/jvnet-parent/4/jvnet-parent-4.pom
+2020-01-08 21:34:32,446 [Worker-16: Importing Maven projects] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for br.com.alura.enviadorEmail:enviadorEmail:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-08 21:34:32,671 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.3.6.RELEASE/spring-boot-starter-actuator-1.3.6.RELEASE.pom
+2020-01-08 21:34:32,885 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.3.6.RELEASE/spring-boot-starter-actuator-1.3.6.RELEASE.pom
+2020-01-08 21:34:33,081 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.3.6.RELEASE/spring-boot-actuator-1.3.6.RELEASE.pom
+2020-01-08 21:34:33,304 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.3.6.RELEASE/spring-boot-actuator-1.3.6.RELEASE.pom
+2020-01-08 21:34:33,651 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jetty/1.3.6.RELEASE/spring-boot-starter-jetty-1.3.6.RELEASE.jar
+2020-01-08 21:34:34,120 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jetty/1.3.6.RELEASE/spring-boot-starter-jetty-1.3.6.RELEASE.jar
+2020-01-08 21:34:34,310 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.17.v20160517/jetty-servlets-9.2.17.v20160517.jar
+2020-01-08 21:34:34,824 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.17.v20160517/jetty-servlets-9.2.17.v20160517.jar
+2020-01-08 21:34:35,026 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.17.v20160517/jetty-continuation-9.2.17.v20160517.jar
+2020-01-08 21:34:35,670 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.17.v20160517/jetty-continuation-9.2.17.v20160517.jar
+2020-01-08 21:34:35,845 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.jar
+2020-01-08 21:34:36,170 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517.jar
+2020-01-08 21:34:36,358 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.jar
+2020-01-08 21:34:37,087 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517.jar
+2020-01-08 21:34:37,278 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.jar
+2020-01-08 21:34:37,472 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517.jar
+2020-01-08 21:34:37,689 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.17.v20160517/jetty-webapp-9.2.17.v20160517.jar
+2020-01-08 21:34:37,910 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.17.v20160517/jetty-webapp-9.2.17.v20160517.jar
+2020-01-08 21:34:38,098 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.17.v20160517/jetty-xml-9.2.17.v20160517.jar
+2020-01-08 21:34:38,525 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.17.v20160517/jetty-xml-9.2.17.v20160517.jar
+2020-01-08 21:34:38,712 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.jar
+2020-01-08 21:34:38,937 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517.jar
+2020-01-08 21:34:39,122 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.jar
+2020-01-08 21:34:39,343 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517.jar
+2020-01-08 21:34:39,531 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.jar
+2020-01-08 21:34:39,855 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517.jar
+2020-01-08 21:34:40,044 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.17.v20160517/websocket-server-9.2.17.v20160517.jar
+2020-01-08 21:34:40,470 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.17.v20160517/websocket-server-9.2.17.v20160517.jar
+2020-01-08 21:34:40,658 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.17.v20160517/websocket-common-9.2.17.v20160517.jar
+2020-01-08 21:34:40,881 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.17.v20160517/websocket-common-9.2.17.v20160517.jar
+2020-01-08 21:34:41,068 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.17.v20160517/websocket-api-9.2.17.v20160517.jar
+2020-01-08 21:34:41,703 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.17.v20160517/websocket-api-9.2.17.v20160517.jar
+2020-01-08 21:34:41,888 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.17.v20160517/websocket-client-9.2.17.v20160517.jar
+2020-01-08 21:34:42,320 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.17.v20160517/websocket-client-9.2.17.v20160517.jar
+2020-01-08 21:34:42,502 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.2.17.v20160517/websocket-servlet-9.2.17.v20160517.jar
+2020-01-08 21:34:42,926 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.2.17.v20160517/websocket-servlet-9.2.17.v20160517.jar
+2020-01-08 21:34:43,116 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2020-01-08 21:34:43,347 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar
+2020-01-08 21:34:43,526 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.17.v20160517/javax-websocket-server-impl-9.2.17.v20160517.jar
+2020-01-08 21:34:43,950 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.17.v20160517/javax-websocket-server-impl-9.2.17.v20160517.jar
+2020-01-08 21:34:44,140 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/9.2.17.v20160517/jetty-annotations-9.2.17.v20160517.jar
+2020-01-08 21:34:44,364 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/9.2.17.v20160517/jetty-annotations-9.2.17.v20160517.jar
+2020-01-08 21:34:44,550 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.2.17.v20160517/jetty-plus-9.2.17.v20160517.jar
+2020-01-08 21:34:44,772 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.2.17.v20160517/jetty-plus-9.2.17.v20160517.jar
+2020-01-08 21:34:44,959 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.2.17.v20160517/jetty-jndi-9.2.17.v20160517.jar
+2020-01-08 21:34:45,495 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.2.17.v20160517/jetty-jndi-9.2.17.v20160517.jar
+2020-01-08 21:34:45,676 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
+2020-01-08 21:34:45,899 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2.jar
+2020-01-08 21:34:46,087 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.1/asm-5.0.1.jar
+2020-01-08 21:34:46,309 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.1/asm-5.0.1.jar
+2020-01-08 21:34:46,495 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.1/asm-commons-5.0.1.jar
+2020-01-08 21:34:46,909 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.1/asm-commons-5.0.1.jar
+2020-01-08 21:34:47,110 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.1/asm-tree-5.0.1.jar
+2020-01-08 21:34:47,634 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.1/asm-tree-5.0.1.jar
+2020-01-08 21:34:47,814 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.2.17.v20160517/javax-websocket-client-impl-9.2.17.v20160517.jar
+2020-01-08 21:34:48,051 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.2.17.v20160517/javax-websocket-client-impl-9.2.17.v20160517.jar
+2020-01-08 21:34:48,198 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar
+2020-01-08 21:34:48,868 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0.jar
+2020-01-08 21:34:49,055 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.3.6.RELEASE/spring-boot-starter-actuator-1.3.6.RELEASE.jar
+2020-01-08 21:34:49,277 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.3.6.RELEASE/spring-boot-starter-actuator-1.3.6.RELEASE.jar
+2020-01-08 21:34:49,465 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.3.6.RELEASE/spring-boot-actuator-1.3.6.RELEASE.jar
+2020-01-08 21:34:49,789 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.3.6.RELEASE/spring-boot-actuator-1.3.6.RELEASE.jar
+2020-01-08 21:35:01,397 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-08 21:35:06,060 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.produtos:api-rest:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\produtos-apirest-master\pom.xml.
+2020-01-08 21:35:09,717 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.eventosapp:eventosapp:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\cursospringboot-master\pom.xml.
+2020-01-08 21:35:24,125 [Worker-11: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for br.com.alura.enviadorEmail:enviadorEmail:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-08 21:35:25,207 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jetty/1.3.6.RELEASE/spring-boot-starter-jetty-1.3.6.RELEASE-sources.jar
+2020-01-08 21:35:25,424 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-jetty/1.3.6.RELEASE/spring-boot-starter-jetty-1.3.6.RELEASE-sources.jar
+2020-01-08 21:35:25,616 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-jetty:1.3.6.RELEASE
+2020-01-08 21:35:26,431 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.17.v20160517/jetty-servlets-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:26,486 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /listavip/src/main/java
+2020-01-08 21:35:26,487 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /listavip/src/main/resources
+2020-01-08 21:35:26,488 [Worker-16: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /listavip/src/test/java
+2020-01-08 21:35:27,060 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlets/9.2.17.v20160517/jetty-servlets-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:27,228 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-servlets:9.2.17.v20160517
+2020-01-08 21:35:28,069 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.17.v20160517/jetty-continuation-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:28,598 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-continuation/9.2.17.v20160517/jetty-continuation-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:29,057 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-continuation:9.2.17.v20160517
+2020-01-08 21:35:29,912 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:29,977 [Worker-16: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 86 sec
+2020-01-08 21:35:30,573 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-http/9.2.17.v20160517/jetty-http-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:31,241 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-http:9.2.17.v20160517
+2020-01-08 21:35:32,165 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:32,675 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:35:32,680 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 21:35:32,722 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-08 21:35:32,726 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:35:32,726 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\produtos-apirest-master\src\test\resources
+2020-01-08 21:35:33,306 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-util/9.2.17.v20160517/jetty-util-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:33,609 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:35:33,620 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 21:35:33,683 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-08 21:35:33,693 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:35:33,693 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\cursospringboot-master\src\test\resources
+2020-01-08 21:35:33,783 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 21:35:33,803 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 19 resources
+2020-01-08 21:35:33,876 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-util:9.2.17.v20160517
+2020-01-08 21:35:34,663 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 21:35:34,675 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\springboot-aula5\Aula-5\src\test\resources
+2020-01-08 21:35:34,725 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:35,368 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-io/9.2.17.v20160517/jetty-io-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:35,744 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-io:9.2.17.v20160517
+2020-01-08 21:35:36,514 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.17.v20160517/jetty-webapp-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:37,093 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-webapp/9.2.17.v20160517/jetty-webapp-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:37,321 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-webapp:9.2.17.v20160517
+2020-01-08 21:35:37,670 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:35:37,672 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-08 21:35:37,710 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-08 21:35:37,725 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-08 21:35:37,726 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-08 21:35:38,070 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.17.v20160517/jetty-xml-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:38,641 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-xml/9.2.17.v20160517/jetty-xml-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:38,799 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-xml:9.2.17.v20160517
+2020-01-08 21:35:39,587 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:40,165 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-servlet/9.2.17.v20160517/jetty-servlet-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:40,311 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-servlet:9.2.17.v20160517
+2020-01-08 21:35:41,176 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:41,813 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-security/9.2.17.v20160517/jetty-security-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:42,052 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-security:9.2.17.v20160517
+2020-01-08 21:35:42,916 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:43,839 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-server/9.2.17.v20160517/jetty-server-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:43,983 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-server:9.2.17.v20160517
+2020-01-08 21:35:44,863 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.17.v20160517/websocket-server-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:45,497 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-server/9.2.17.v20160517/websocket-server-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:45,793 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-server:9.2.17.v20160517
+2020-01-08 21:35:46,706 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.17.v20160517/websocket-common-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:47,543 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-common/9.2.17.v20160517/websocket-common-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:47,690 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-common:9.2.17.v20160517
+2020-01-08 21:35:48,523 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.17.v20160517/websocket-api-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:49,528 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-api/9.2.17.v20160517/websocket-api-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:49,667 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-api:9.2.17.v20160517
+2020-01-08 21:35:50,597 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.17.v20160517/websocket-client-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:51,146 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-client/9.2.17.v20160517/websocket-client-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:51,284 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-client:9.2.17.v20160517
+2020-01-08 21:35:52,134 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.2.17.v20160517/websocket-servlet-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:52,559 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/websocket-servlet/9.2.17.v20160517/websocket-servlet-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:52,708 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-servlet:9.2.17.v20160517
+2020-01-08 21:35:53,567 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2020-01-08 21:35:54,605 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0-sources.jar
+2020-01-08 21:35:54,799 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:3.1.0
+2020-01-08 21:35:55,620 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.17.v20160517/javax-websocket-server-impl-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:56,211 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-server-impl/9.2.17.v20160517/javax-websocket-server-impl-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:56,364 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:javax-websocket-server-impl:9.2.17.v20160517
+2020-01-08 21:35:57,151 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/9.2.17.v20160517/jetty-annotations-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:57,987 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-annotations/9.2.17.v20160517/jetty-annotations-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:58,165 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-annotations:9.2.17.v20160517
+2020-01-08 21:35:58,994 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.2.17.v20160517/jetty-plus-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:59,726 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-plus/9.2.17.v20160517/jetty-plus-9.2.17.v20160517-sources.jar
+2020-01-08 21:35:59,878 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-plus:9.2.17.v20160517
+2020-01-08 21:36:00,838 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.2.17.v20160517/jetty-jndi-9.2.17.v20160517-sources.jar
+2020-01-08 21:36:01,480 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/jetty-jndi/9.2.17.v20160517/jetty-jndi-9.2.17.v20160517-sources.jar
+2020-01-08 21:36:01,736 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-jndi:9.2.17.v20160517
+2020-01-08 21:36:02,885 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2020-01-08 21:36:03,723 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/annotation/javax.annotation-api/1.2/javax.annotation-api-1.2-sources.jar
+2020-01-08 21:36:03,887 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.annotation:javax.annotation-api:1.2
+2020-01-08 21:36:04,729 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.1/asm-5.0.1-sources.jar
+2020-01-08 21:36:06,284 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm/5.0.1/asm-5.0.1-sources.jar
+2020-01-08 21:36:06,539 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:5.0.1
+2020-01-08 21:36:07,391 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.1/asm-commons-5.0.1-sources.jar
+2020-01-08 21:36:08,833 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-commons/5.0.1/asm-commons-5.0.1-sources.jar
+2020-01-08 21:36:09,012 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-commons:5.0.1
+2020-01-08 21:36:09,803 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.1/asm-tree-5.0.1-sources.jar
+2020-01-08 21:36:11,290 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/5.0.1/asm-tree-5.0.1-sources.jar
+2020-01-08 21:36:11,469 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-tree:5.0.1
+2020-01-08 21:36:12,247 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.2.17.v20160517/javax-websocket-client-impl-9.2.17.v20160517-sources.jar
+2020-01-08 21:36:12,939 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/eclipse/jetty/websocket/javax-websocket-client-impl/9.2.17.v20160517/javax-websocket-client-impl-9.2.17.v20160517-sources.jar
+2020-01-08 21:36:13,130 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:javax-websocket-client-impl:9.2.17.v20160517
+2020-01-08 21:36:13,944 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar
+2020-01-08 21:36:14,578 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/javax/websocket/javax.websocket-api/1.0/javax.websocket-api-1.0-sources.jar
+2020-01-08 21:36:14,755 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.websocket:javax.websocket-api:1.0
+2020-01-08 21:36:14,964 [Worker-11: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for br.com.alura.enviadorEmail:enviadorEmail:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact br.com.alura.enviadorEmail:enviadorEmail:jar:sources:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:302) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-08 21:36:15,890 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.3.6.RELEASE/spring-boot-starter-actuator-1.3.6.RELEASE-sources.jar
+2020-01-08 21:36:16,111 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-actuator/1.3.6.RELEASE/spring-boot-starter-actuator-1.3.6.RELEASE-sources.jar
+2020-01-08 21:36:16,306 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-actuator:1.3.6.RELEASE
+2020-01-08 21:36:17,118 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.3.6.RELEASE/spring-boot-actuator-1.3.6.RELEASE-sources.jar
+2020-01-08 21:36:18,158 [Worker-11: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-actuator/1.3.6.RELEASE/spring-boot-actuator-1.3.6.RELEASE-sources.jar
+2020-01-08 21:36:18,333 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:1.3.6.RELEASE
+2020-01-08 21:36:18,369 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-http:9.2.17.v20160517
+2020-01-08 21:36:18,404 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-util:9.2.17.v20160517
+2020-01-08 21:36:18,435 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-io:9.2.17.v20160517
+2020-01-08 21:36:18,470 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-webapp:9.2.17.v20160517
+2020-01-08 21:36:18,505 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-xml:9.2.17.v20160517
+2020-01-08 21:36:18,534 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-servlet:9.2.17.v20160517
+2020-01-08 21:36:18,564 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-security:9.2.17.v20160517
+2020-01-08 21:36:18,598 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-server:9.2.17.v20160517
+2020-01-08 21:36:18,631 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-server:9.2.17.v20160517
+2020-01-08 21:36:18,668 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-common:9.2.17.v20160517
+2020-01-08 21:36:18,711 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-api:9.2.17.v20160517
+2020-01-08 21:36:18,751 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-client:9.2.17.v20160517
+2020-01-08 21:36:18,787 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:websocket-servlet:9.2.17.v20160517
+2020-01-08 21:36:18,824 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.servlet:javax.servlet-api:3.1.0
+2020-01-08 21:36:18,858 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:javax-websocket-server-impl:9.2.17.v20160517
+2020-01-08 21:36:18,895 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-annotations:9.2.17.v20160517
+2020-01-08 21:36:18,925 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-plus:9.2.17.v20160517
+2020-01-08 21:36:18,959 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty:jetty-jndi:9.2.17.v20160517
+2020-01-08 21:36:18,996 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.annotation:javax.annotation-api:1.2
+2020-01-08 21:36:19,010 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm:5.0.1
+2020-01-08 21:36:19,025 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-commons:5.0.1
+2020-01-08 21:36:19,040 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.ow2.asm:asm-tree:5.0.1
+2020-01-08 21:36:19,055 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.eclipse.jetty.websocket:javax-websocket-client-impl:9.2.17.v20160517
+2020-01-08 21:36:19,073 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for javax.websocket:javax.websocket-api:1.0
+2020-01-08 21:36:19,091 [Worker-11: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for br.com.alura.enviadorEmail:enviadorEmail:0.0.1-SNAPSHOT
+org.eclipse.core.runtime.CoreException: Could not resolve artifact br.com.alura.enviadorEmail:enviadorEmail:jar:javadoc:0.0.1-SNAPSHOT
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:801) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:769) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:746) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:328) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:314) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:267) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadFilesAndPopulateToUpdate(DownloadSourcesJob.java:231) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.lambda$0(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1374) ~[org.eclipse.m2e.core_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:159) [org.eclipse.m2e.jdt_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-08 21:36:19,145 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-actuator:1.3.6.RELEASE
+2020-01-08 21:36:19,162 [Worker-11: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-actuator:1.3.6.RELEASE
+2020-01-08 21:36:25,755 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 21:36:25,773 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-08 21:36:25,775 [Worker-13: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2020-01-08 21:36:25,792 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Projetos didaticos\springboot-aula5\Aula-5\src\test\resources
+2020-01-09 08:15:31,262 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-09 08:20:27,610 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-09 08:20:28,794 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.pom
+2020-01-09 08:20:28,936 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.pom
+2020-01-09 08:20:29,088 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.pom
+2020-01-09 08:20:29,350 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.pom
+2020-01-09 08:20:29,491 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.pom
+2020-01-09 08:20:29,631 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.pom
+2020-01-09 08:20:29,775 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.pom
+2020-01-09 08:20:29,921 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.pom
+2020-01-09 08:20:30,272 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar
+2020-01-09 08:20:30,414 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE.jar
+2020-01-09 08:20:30,536 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar
+2020-01-09 08:20:31,297 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar
+2020-01-09 08:20:31,420 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar
+2020-01-09 08:20:31,825 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar
+2020-01-09 08:20:31,947 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar
+2020-01-09 08:20:32,360 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar
+2020-01-09 08:20:36,071 [Worker-17: Building workspace] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for br.com.alura.enviadorEmail:enviadorEmail:jar:0.0.1-SNAPSHOT is missing, no dependency information available
+2020-01-09 08:20:39,164 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE-sources.jar
+2020-01-09 08:20:39,382 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-security/2.2.2.RELEASE/spring-boot-starter-security-2.2.2.RELEASE-sources.jar
+2020-01-09 08:20:39,535 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-security:2.2.2.RELEASE
+2020-01-09 08:20:40,064 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE-sources.jar
+2020-01-09 08:20:40,947 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE-sources.jar
+2020-01-09 08:20:41,067 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-config:5.2.1.RELEASE
+2020-01-09 08:20:41,110 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:20:41,118 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:20:41,139 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:20:41,148 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:20:41,149 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:20:41,606 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE-sources.jar
+2020-01-09 08:20:42,498 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE-sources.jar
+2020-01-09 08:20:42,716 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-core:5.2.1.RELEASE
+2020-01-09 08:20:43,264 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE-sources.jar
+2020-01-09 08:20:44,032 [Worker-14: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE-sources.jar
+2020-01-09 08:20:44,147 [Worker-14: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-web:5.2.1.RELEASE
+2020-01-09 08:20:45,768 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:20:45,775 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:20:45,785 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:20:46,433 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:20:46,434 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:21:39,725 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:21:39,730 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:21:39,741 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:21:39,769 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:21:39,769 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:25:49,036 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:25:49,041 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:25:49,102 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:25:49,107 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:25:49,107 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:26:57,894 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:26:57,899 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:26:57,915 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:26:57,920 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:26:57,920 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:30:16,266 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:30:16,271 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:30:16,304 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:30:16,311 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:30:16,312 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:31:22,443 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:31:22,449 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:31:22,458 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:31:22,466 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:31:22,466 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:43:30,076 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:43:30,081 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:43:30,099 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:43:30,111 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:43:30,111 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:43:53,986 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:43:53,991 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:43:54,000 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:43:54,007 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:43:54,008 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:49:10,483 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:49:10,488 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:49:10,497 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:49:10,504 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:49:10,505 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:49:38,614 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:49:38,618 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:49:38,625 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:49:38,632 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:49:38,632 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:49:56,657 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:49:56,660 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:49:56,668 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:49:56,675 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:49:56,675 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:50:47,156 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:50:47,160 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:50:47,168 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:50:47,173 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:50:47,173 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:53:25,751 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:53:25,755 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:53:25,761 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:53:25,767 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:53:25,767 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:54:58,372 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:54:58,375 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:54:58,386 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:54:58,393 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:54:58,394 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:55:27,796 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:55:27,801 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:55:27,849 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:55:27,859 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:55:27,859 [Worker-16: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:58:03,735 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:58:03,739 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:58:03,753 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:58:03,760 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:58:03,760 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 08:58:53,396 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:58:53,401 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 08:58:53,408 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 08:58:53,414 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 08:58:53,414 [Worker-19: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:00:08,632 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:00:08,637 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:00:08,650 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:00:08,656 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:00:08,656 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:03:29,486 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:03:29,490 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:03:29,497 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:03:29,502 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:03:29,502 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:11:58,489 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:11:58,492 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:11:58,501 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:11:58,506 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:11:58,506 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:14:15,012 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:14:15,018 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:14:15,027 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:14:15,040 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:14:15,040 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:16:20,382 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:16:20,387 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:16:20,398 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:16:20,405 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:16:20,405 [Worker-30: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:17:47,155 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:17:47,160 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:17:47,169 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:17:47,176 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:17:47,176 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:18:57,951 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:18:57,954 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:18:57,961 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:18:57,965 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:18:57,965 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:20:09,175 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:20:09,180 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:20:09,188 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:20:09,194 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:20:09,195 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:23:05,048 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:23:05,051 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:23:05,058 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:23:05,064 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:23:05,064 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 09:23:06,327 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:23:06,332 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 09:23:06,340 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 09:23:06,345 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 09:23:06,345 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:29:59,313 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:29:59,313 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:29:59,335 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:29:59,335 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:29:59,335 [Worker-65: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:33:31,592 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:33:31,599 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:33:31,608 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:33:31,614 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:33:31,615 [Worker-66: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:33:37,278 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:33:37,282 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:33:37,289 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:33:37,295 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:33:37,296 [Worker-69: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:36:20,068 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:36:20,073 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:36:20,081 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:36:20,088 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:36:20,089 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:44:14,970 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:44:14,977 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:44:14,990 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:44:14,998 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:44:14,998 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:48:06,170 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:48:06,175 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:48:06,248 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:48:06,252 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:48:06,252 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:48:50,711 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:48:50,717 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:48:50,725 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:48:50,733 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:48:50,734 [Worker-72: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:49:00,573 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:00,578 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:49:00,587 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:49:00,594 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:00,594 [Worker-75: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:49:02,409 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:02,413 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:49:02,421 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:49:02,426 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:49:02,426 [Worker-76: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:56:12,535 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:12,540 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:56:12,546 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:56:12,550 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:12,550 [Worker-79: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:56:20,959 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:20,966 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:56:20,974 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:56:20,980 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:56:20,981 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:58:52,635 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:58:52,639 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:58:52,651 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:58:52,656 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:58:52,656 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:59:35,363 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:59:35,368 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:59:35,375 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:59:35,379 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:59:35,380 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 12:59:49,983 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:59:49,989 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 12:59:49,998 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 12:59:50,002 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 12:59:50,003 [Worker-78: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:00:39,405 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:00:39,408 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:00:39,419 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 13:00:39,424 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:00:39,425 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:05:27,754 [Worker-81: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-09 13:05:38,287 [Worker-81: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-09 13:05:41,886 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:05:41,893 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:05:41,893 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:05:41,897 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:05:41,897 [Worker-81: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:05:50,440 [Worker-86: reload maven project] ERROR o.e.m2e.editor.pom.MavenPomEditor - failed to load maven project for org.eclipse.ui.part.FileEditorInput(/sce/pom.xml)
+org.eclipse.core.runtime.CoreException: Could not read maven project
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.readProjectWithDependencies(ProjectRegistryManager.java:851) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$2.call(ProjectRegistryManager.java:1069) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager$2.call(ProjectRegistryManager.java:1) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache$1.load(LocalCache.java:4878) ~[na:na]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3529) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2278) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2155) ~[na:na]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2045) ~[na:na]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:3953) ~[na:na]
+	at com.google.common.cache.LocalCache$LocalManualCache.get(LocalCache.java:4873) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.getMavenProject(ProjectRegistryManager.java:1067) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.MavenProjectFacade.getMavenProject(MavenProjectFacade.java:242) ~[na:na]
+	at org.eclipse.m2e.core.ui.internal.actions.SelectionUtil.getMavenProject(SelectionUtil.java:261) ~[org.eclipse.m2e.core.ui_1.13.0.20190716-1624.jar:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor.readMavenProject(MavenPomEditor.java:740) ~[na:na]
+	at org.eclipse.m2e.editor.pom.MavenPomEditor$5.run(MavenPomEditor.java:1074) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) [org.eclipse.core.jobs_3.10.500.v20190620-1426.jar:na]
+2020-01-09 13:05:51,049 [Worker-85: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-09 13:07:21,672 [Worker-89: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-09 13:07:23,971 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:07:23,976 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:07:23,976 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:07:23,980 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:07:23,981 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:07:50,478 [Worker-73: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-09 13:07:52,014 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:07:52,019 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:07:52,019 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:07:52,022 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:07:52,023 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:08:28,057 [Worker-88: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.ibm.sce:sce:0.0.1-SNAPSHOT @ C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\pom.xml.
+2020-01-09 13:08:28,257 [Worker-89: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.pom
+2020-01-09 13:08:28,846 [Worker-89: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.pom
+2020-01-09 13:08:29,119 [Worker-89: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.jar
+2020-01-09 13:08:29,329 [Worker-88: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.pom
+2020-01-09 13:08:29,486 [Worker-88: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.pom
+2020-01-09 13:08:29,492 [Worker-89: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE.jar
+2020-01-09 13:08:29,613 [Worker-89: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12.jar
+2020-01-09 13:08:29,712 [Worker-88: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12.jar
+2020-01-09 13:08:30,012 [Worker-89: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12.jar
+2020-01-09 13:08:30,242 [Worker-88: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12.jar
+2020-01-09 13:08:31,409 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:08:31,413 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:08:31,414 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:08:31,417 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:08:31,417 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:08:33,485 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE-sources.jar
+2020-01-09 13:08:33,816 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:08:33,826 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:08:33,872 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 13:08:34,127 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/extras/thymeleaf-extras-springsecurity4/2.1.2.RELEASE/thymeleaf-extras-springsecurity4-2.1.2.RELEASE-sources.jar
+2020-01-09 13:08:34,265 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf.extras:thymeleaf-extras-springsecurity4:2.1.2.RELEASE
+2020-01-09 13:08:34,803 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12-sources.jar
+2020-01-09 13:08:34,891 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:08:34,892 [Worker-73: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:08:35,669 [Worker-89: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/ognl/ognl/3.1.12/ognl-3.1.12-sources.jar
+2020-01-09 13:08:36,141 [Worker-89: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for ognl:ognl:3.1.12
+2020-01-09 13:08:37,082 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:08:37,083 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:08:37,083 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:08:37,086 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:08:37,086 [Worker-90: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:10:49,019 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:10:49,022 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:10:49,033 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 13:10:49,039 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:10:49,039 [Worker-88: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:15:04,471 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:15:04,477 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:15:04,490 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 13:15:04,498 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:15:04,499 [Worker-92: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:15:34,724 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:15:34,729 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:15:34,737 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 13:15:34,742 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:15:34,743 [Worker-89: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:35:34,513 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:35:34,522 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:35:34,524 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:35:34,535 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:35:34,535 [Worker-101: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 13:38:13,294 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:38:13,295 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-01-09 13:38:13,296 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 13:38:13,305 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 13:38:13,305 [Worker-102: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources

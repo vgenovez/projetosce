@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCE</title>
+  <link rel="stylesheet" type="text/css" href="css/estilocard.css"/>
+  <link rel="icon" type="image/x-icon" href="img/icone.ico"/>
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
+</head>
+
+<style>
+  body {
+    background-image: url("img/loginimg.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<body>
+
+  <div class="row estilo">
+    <div class="col s12 l4 offset-l4">
+      <div class="card">
+
+        <div class="card-action teal accent-4 white-text center">
+          <h3 class="titulo">BEM VINDO AO SCE</h3>
+          <p>Sistema de cadastro de estoque - Field</p>
+        </div>
+
+        <div class="card-content">
+          
+          <form th:action="@{/}" method="post">
+
+          <div class="form-field">
+            <label for="username">Usuario</label>
+            <input type="text" id="username" name="username"  required="required"/>
+          </div><br>
+
+          <div class="form-field">
+            <label for="password">Senha</label>
+            <input id="password" type="password" name="password"/>
+          </div><br>
+
+          <div class="form-field center-align">
+            <a href="/index" class="waves-effect waves-red btn-large teal accent-4">Login</a>
+            <a href="cadastro.html" class="waves-effect waves-yellow btn-large teal accent-4">Cadastro</a>
+          </div><br>
+
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+
+</body>
+
+</html>
