@@ -1,0 +1,68 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+}
+
+.titulo{
+	display:flex;
+}
+
+.telatop{
+	display:flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.inputfiltro{
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+}
+
+#filtrar-tabela{
+	width: 400px;
+	height: 35px;
+	margin-bottom: 10px;
+}
+
+.cbfiltro{
+	top: 1px;
+}
+
+.tabelatop{
+	display: flex;
+	justify-content: center;
+}
+
+.tabela{
+	width: 500px;
+	margin-bottom : .8em;
+    table-layout: 40px;
+}
+
+td, th {
+	border: 1px solid #ccc;
+}
+
+th{
+	font-weight: bold;
+	background-color: #EEE;
+}
+
+.botaoacao{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.invisivel {
+	display: none;
+}
+
+#invisivel{
+	display: none;
+}

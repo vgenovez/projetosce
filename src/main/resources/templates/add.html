@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCE</title>
+  <link type="image/x-icon" rel="icon" href="img/icone.ico"/>
+  <link type="text/css" rel="stylesheet" href="css/estilocard.css"/>
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+</head>
+
+<style>
+  body {
+    background-image: url("img/estoqueadd.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<body>
+  <main>
+
+    <div class="row estilo">
+      <div class="col s15 m10 offset-m1">
+        <div class="card">
+
+          <div class="card-action teal accent-4 white-text center">
+            <h4 class="titulo">SCE - ADICIONAR UMA NOVA ENTRADA</h4>
+            <th:block th:include="validacao"></th:block>
+          </div>
+
+          <!-- Form para adicionar os dados na tabela -->
+          <form method="post">
+            <div class="card-content">
+
+              <div class="row">
+                <div class="input-field col s2">
+                  <label class="active" for="iptcadAssettag">Asset Tag</label>
+                  <input type="text" maxlength="10" name="assettag" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s2">
+                  <label class="active" for="iptcadHostname">Hostname</label>
+                  <input type="text" maxlength="10" value="" name="hostname" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s5">
+                  <label class="active" for="iptcadModelo">Modelo</label>
+                  <input type="text" maxlength="40" value="" name="modelo" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s3">
+                  <label class="active" for="iptcadSerie">Serie</label>
+                  <input type="text" maxlength="20" value="" name="serie" class="validate" required="required"/>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="tipo input-field col s2" aria-required="true">
+                  <select name="tipo">
+                    <option value="" disabled selected>Tipo</option>
+                    <option value="Desktop">Desktop</option>
+                    <option value="Notebook">Notebook</option>
+                    <option value="Monitor">Monitor</option>
+                    <option value="Thinclient">ThinClient</option>
+                  </select>
+                </div>
+                <div class="fabri input-field col s2">
+                  <select name="fabri">
+                    <option value="" disabled selected>Fabricante</option>
+                    <option value="Lenovo">Lenovo</option>
+                    <option value="HP">HP</option>
+                    <option value="Dell">Dell</option>
+                    <option value="Generico">Generico</option>
+                  </select>
+                </div>
+                <div class="propri input-field col s3">
+                  <select name="propri">
+                    <option value="" disabled selected>Proprietario</option>
+                    <option value="Fastshop">Fastshop</option>
+                    <option value="IBM">IBM</option>
+                  </select>
+                </div>
+                <div class="input-field col s5">
+                  <label class="active" for="iptcadlocalidade">Localidade</label>
+                  <input type="text" maxlength="50" value="" name="local" class="validate" required="required"/>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s4">
+                  <label class="active" for="iptcadusuario">Usuario</label>
+                  <input type="text" maxlength="50" value="" name="usuario" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s3">
+                  <label class="active" for="iptcadlogin">Login</label>
+                  <input type="text" maxlength="15" value="" name="login" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s2">
+                  <label class="active" for="iptcadnf">NF</label>
+                  <input type="text" maxlength="15" value="" name="nfiscal" class="validate" required="required"/>
+                </div>
+                <div class="stdoativo input-field col s3">
+                  <select name="stdoativo">
+                    <option value="" disabled selected>Status do Ativo</option>
+                    <option value="Ativo">Ativo</option>
+                    <option value="Estoque">Estoque</option>
+                    <option value="Descarte">Descarte</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="invisivel">
+                <input type="text" value="Vitor" name="tecresp">
+                <input type="text" value="NAO" name="posdoativo">
+                <input type="text" value="NP" name="tecatman">
+                <input type="text" value="NP" name="cham">
+              </div>
+
+              <div class="center-align">
+                <button class="modal-close btn-floating btn-large waves-effect waves-light blue" type="submit">
+                  <i class="material-icons">add</i></button>
+              </div>
+
+            </div>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/framework.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+
+  </main>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+.titulo {
+    font-family: Impact, Charcoal, sans-serif;
+  }
+
+.cadastro{
+    margin-top: 40px;
+  }
+
+.cadastro label{
+    font-size: 16px;
+  }
+
+.cadastro input{
+    font-size: 20px !important;
+    background-color: transparent
+  }
+
+.cadastro .card{
+    background: rgba(255, 248, 248, 0.719);
+  }
+
+.cadastro input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px rgb(223, 6, 6) inset;
+}

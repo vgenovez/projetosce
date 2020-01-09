@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCE</title>
+  <link rel="icon" type="image/x-icon" href="img/icone.ico"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css"/>
+  <link rel="stylesheet" type="text/css"  href="css/materialize.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+</head>
+
+<body>
+  <main>
+
+    <!-- Titulo -->
+    <div class="titulo">
+
+      <div>
+        <h5>SCE - Cadastro</h5>
+      </div>
+      <div>
+        <i class="material-icons prefix">account_circle</i>
+        <label for="icon_prefix">First Name</label>
+      </div>
+      <div id="contalinhasTotal">
+        <label for="linha">TOP</label>
+      </div>
+
+      <a id="bt-exit" class="btn-floating btn-small waves-effect waves-light black">
+        <i class="material-icons">exit_to_app</i>
+      </a>
+
+    </div>
+
+    <!-- Botoes e Inputs-->
+    <section class="telatop">
+
+      <div class="inputfiltro">
+        <div class="input-field">
+          <i class="material-icons prefix">search</i>
+          <textarea id="filtrar-tabela" class="materialize-textarea"></textarea>
+          <label for="filtrar-tabela">Buscar</label>
+        </div>
+      </div>
+
+      <div class="cbfiltro input-field col s12">
+        <select id="filtro" >
+          <option value="" disabled selected>Filtro</option>
+          <option value="1">Asset Tag</option>
+          <option value="2">Hostname</option>
+          <option value="3">Modelo</option>
+          <option value="4">Serie</option>
+          <option value="5">Tipo</option>
+          <option value="6">Fabricante</option>
+          <option value="7">Proprietario</option>
+          <option value="8">Localidade</option>
+          <option value="9">Usuario</option>
+          <option value="10">Login</option>
+          <option value="11">Nota Fiscal</option>
+          <option value="12">Status do Ativo</option>
+          <option value="13">Tecnico Responsavel</option>
+          <option value="14">Data de Cadastro</option>
+          <option value="15">Asset OK</option>
+          <option value="16">Tec. Asset Manager</option>
+          <option value="17">Chamado de Asset</option>
+        </select>
+      </div>
+
+      <div>
+        <a href="/add" class="btn-floating btn-large waves-effect waves-light blue">
+          <i class="material-icons">add</i>
+        </a>
+      </div>
+
+    </section>
+
+    <!-- Tabela -->
+    <section class="tabelatop">
+      <table class="tabela centered">
+        <thead>
+          <tr>
+            <th>Asset Tag</th>
+            <th>Hostname</th>
+            <th>Modelo</th>
+            <th>Serie</th>
+            <th>Tipo</th>
+            <th>Fabricante</th>
+            <th>Propriedade</th>
+            <th>Localidade</th>
+            <th>Usuario</th>
+            <th>Login</th>
+            <th>NF</th>
+            <th>St.do Ativo</th>
+            <th>Tec. Resp</th>
+            <th>Dt. Cad/Edit</th>
+            <th class="">Asset OK</th>
+            <th class="">Tec. Manager</th>
+            <th class="">Chamado de Asset</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody id="table-asset">
+          <tr class="asset" th:each="estoque : ${estoques}">
+            <td class="info-Assettag"><span th:text="${estoque.assettag}"></span></td>
+            <td class="info-Hostname"><span th:text="${estoque.hostname}"></span></td>
+            <td class="info-Modelo"><span th:text="${estoque.modelo}"></span></td>
+            <td class="info-Serie"><span th:text="${estoque.serie}"></span></td>
+            <td class="info-Tipo"><span th:text="${estoque.tipo}"></span></td>
+            <td class="info-Fabricante"><span th:text="${estoque.fabri}"></span></td>
+            <td class="info-Proprietario"><span th:text="${estoque.propri}"></span></td>
+            <td class="info-Localidade"><span th:text="${estoque.local}"></span></td>
+            <td class="info-Usuario"><span th:text="${estoque.usuario}"></span></td>
+            <td class="info-Login"><span th:text="${estoque.login}"></span></td>
+            <td class="info-Nfiscal"><span th:text="${estoque.nfiscal}"></span></td>
+            <td class="info-Statusdoativo"><span th:text="${estoque.stdoativo}"></span></td>
+            <td class="info-TecResponsavel"><span th:text="${estoque.tecresp}"></span></td>
+            <td class="info-Datadecadastro"><span th:text="${#dates.format(estoque.dtcad,'dd-MMM-yyyy')}"></span>
+                                            <span th:text="${#dates.format(estoque.dtupt,'dd-MMM-yyyy')}"></span></td>
+            <td class="info-Posdoasset"><span th:text="${estoque.posdoativo}"></span></td>
+            <td class="info-TecassetManager"><span th:text="${estoque.tecatman}"></span></td>
+            <td class="info-Cham."><span th:text="${estoque.cham}"></span></td>
+            <td class="botaoacao "><a class="btn-floating btn-small waves-effect waves-light" th:href="${(#mvc.url('EC#edit').arg(0, estoque.id)).build()}"><i class="material-icons">edit</i> </a>
+                                   <a id ="" class="btn-floating btn-small waves-effect waves-light cyan" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}"><i class="material-icons">note</i></a></td>
+            </tr>
+          </tbody>
+         </table>
+        </section>
+         
+       <script src="js/filtroindex.js"></script>
+       <script src="js/jquery.js"></script>
+       <script src="js/framework.js"></script>
+       <script type="text/javascript" src="js/materialize.min.js"></script>
+
+    </main>
+  </body>
+</html>

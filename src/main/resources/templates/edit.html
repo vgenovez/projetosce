@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SCE</title>
+  <link rel="icon" type="image/x-icon" href="img/icone.ico"/>
+  <link rel="stylesheet" type="text/css" href="css/estilocard.css"/>
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+</head>
+
+<style>
+  body {
+    background-image: url("img/estoqueedit.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+</style>
+
+<body>
+  <main>
+
+    <div class="row editar">
+      <div class="col 12 m12">
+        <div class="card">
+
+          <div class="card-action teal accent-4 white-text center">
+            <h4 class="titulo">SCE - EDITAR ENTRADA</h4>
+            <th:block th:include="validacao"></th:block>
+          </div>
+
+          <div class="card-content">
+
+            <!-- Busca os dados e mostra tabela-->
+            <section class="tabela">
+              <table class="tabelaeditar">
+                <thead>
+                  <tr>
+                    <th>Asset Tag</th>
+                    <th>Hostname</th>
+                    <th>Modelo</th>
+                    <th>Serie</th>
+                    <th>Tipo</th>
+                    <th>Fabricante</th>
+                    <th>Propriedade</th>
+                    <th>Localidade</th>
+                    <th>Usuario</th>
+                    <th>Login</th>
+                    <th>NF</th>
+                    <th>St.do Ativo</th>
+                    <th>Tec. Resp</th>
+                    <th>Dt. Cad/Edit</th>
+                  </tr>
+                </thead>
+                <tbody id="table-asset">
+                  <tr class="asset" th:each="estoque : ${estoques}">
+                    <td class="info-Assettag"><span th:text="${estoque.assettag}"></span></td>
+                    <td class="info-Hostname"><span th:text="${estoque.hostname}"></span></td>
+                    <td class="info-Modelo"><span th:text="${estoque.modelo}"></span></td>
+                    <td class="info-Serie"><span th:text="${estoque.serie}"></span></td>
+                    <td class="info-Tipo"><span th:text="${estoque.tipo}"></span></td>
+                    <td class="info-Fabricante"><span th:text="${estoque.fabri}"></span></td>
+                    <td class="info-Proprietario"><span th:text="${estoque.propri}"></span></td>
+                    <td class="info-Localidade"><span th:text="${estoque.local}"></span></td>
+                    <td class="info-Usuario"><span th:text="${estoque.usuario}"></span></td>
+                    <td class="info-Login"><span th:text="${estoque.login}"></span></td>
+                    <td class="info-Localidade"><span th:text="${estoque.nfiscal}"></span></td>
+                    <td class="info-Statusdoativo"><span th:text="${estoque.stdoativo}"></span></td>
+                    <td class="info-TecResponsavel"><span th:text="${estoque.tecresp}"></span></td>
+                    <td class="info-Datadecadastro"><span th:text="${#dates.format(estoque.dtcad, 'dd-MMM-yyyy')}"></span>
+                                                    <span th:text="${#dates.format(estoque.dtupt,'dd-MMM-yyyy')}"></span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </section>
+
+            <!-- Formulario para edição - Busca e efetua o salvar-->
+            <form method="post" th:each="estoque : ${estoques}">
+
+              <div class="row">
+                <div class="input-field col s2">
+                  <label class="active" for="iptcadAssettag">Asset Tag</label>
+                  <input type="text" th:value="${estoque.assettag}" maxlength="10" name="assettag" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s2">
+                  <label class="active" for="iptcadHostname">Hostname</label>
+                  <input type="text" th:value="${estoque.hostname}" maxlength="10" name="hostname" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s5">
+                  <label class="active" for="iptcadModelo">Modelo</label>
+                  <input type="text" th:value="${estoque.modelo}" maxlength="40" name="modelo" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s3">
+                  <label class="active" for="iptcadSerie">Serie</label>
+                  <input type="text" th:value="${estoque.serie}" maxlength="20" name="serie" class="validate" required="required"/>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="tipo input-field col s2">
+                  <select name="tipo">
+                    <option th:value="${estoque.tipo}" th:text="${estoque.tipo}"></option>
+                    <option value="Desktop">Desktop</option>
+                    <option value="Notebook">Notebook</option>
+                    <option value="Monitor">Monitor</option>
+                    <option value="Thinclient">ThinClient</option>
+                  </select>
+                </div>
+                <div class="fabri input-field col s2">
+                  <select name="fabri">
+                    <option th:value="${estoque.fabri}" th:text="${estoque.fabri}"></option>
+                    <option value="Lenovo">Lenovo</option>
+                    <option value="HP">HP</option>
+                    <option value="Dell">Dell</option>
+                    <option value="Generico">Generico</option>
+                  </select>
+                </div>
+                <div class="propri input-field col s3">
+                  <select name="propri">
+                    <option th:value="${estoque.propri}" th:text="${estoque.propri}"></option>
+                    <option value="Fastshop">Fastshop</option>
+                    <option value="IBM">IBM</option>
+                  </select>
+                </div>
+                <div class="input-field col s5">
+                  <label class="active" for="iptcadlocalidade">Localidade</label>
+                  <input type="text" maxlength="50" th:value="${estoque.local}" name="local" class="validate" required="required"/>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="input-field col s4">
+                  <label class="active" for="iptcadusuario">Usuario</label>
+                  <input type="text" maxlength="50" th:value="${estoque.usuario}" name="usuario" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s3">
+                  <label class="active" for="iptcadlogin">Login</label>
+                  <input type="text" maxlength="15" th:value="${estoque.login}" name="login" class="validate" required="required"/>
+                </div>
+                <div class="input-field col s2">
+                  <label class="active" for="iptcadnf">NF</label>
+                  <input type="text" maxlength="15" th:value="${estoque.nfiscal}" name="nfiscal" class="validate" required="required"/> 
+                </div>
+                <div class="stdoativo input-field col s3">
+                  <select name="stdoativo">
+                    <option th:value="${estoque.stdoativo}" th:text="${estoque.stdoativo}"></option>
+                    <option value="Ativo">Ativo</option>
+                    <option value="Estoque">Estoque</option>
+                    <option value="Descarte">Descarte</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="invisivel">
+                <input type="text" value="Vitor" name="tecresp">
+                <input type="text" value="NAO" name="posdoativo">
+                <input type="text" th:value="${estoque.tecatman}" name="tecatman">
+                <input type="text" th:value="${estoque.cham}" name="cham">
+              </div>
+
+              <div class="center-align">
+                <button class="modal-close btn-floating btn-large waves-effect waves-light blue" type="submit">
+                  <i class="material-icons">add</i></button>
+              </div>
+
+            </form>
+
+            </div>     
+          </div>
+        </div>
+      </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/framework.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  </main>
+</body>
+</html>
