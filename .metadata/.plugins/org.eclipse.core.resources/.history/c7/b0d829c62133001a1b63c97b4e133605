@@ -1,0 +1,47 @@
+package br.ibm.sce.model;
+
+import javax.persistence.Entity;
+import java.util.List;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.Table;
+
+import org.springframework.security.core.GrantedAuthority;
+
+// Tabela criada para controlar as permissoes dos usuarios para login
+
+@Entity
+@Table(name="TB_ROLE")
+public class Role implements GrantedAuthority {
+	
+	@Id
+	private String nRole;
+	
+	@ManyToMany(mappedBy= "tb_roles")
+	private List<Usuario> usuarios;
+	
+	public String getnRole() {
+		return nRole;
+	}
+
+	public void setnRole(String nRole) {
+		this.nRole = nRole;
+	}
+
+	public List<Usuario> getUsuarios() {
+		return usuarios;
+	}
+
+	public void setUsuarios(List<Usuario> usuarios) {
+		this.usuarios = usuarios;
+	}
+	
+	@Override
+	public String getAuthority() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

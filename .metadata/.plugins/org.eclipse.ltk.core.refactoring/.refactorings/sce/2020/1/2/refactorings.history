@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;EstoqueController.java&apos; to &apos;sce/src/main/java/br.ibm.sce.controller&apos;&#x0D;&#x0A;- Original project: &apos;sce&apos;&#x0D;&#x0A;- Destination element: &apos;sce/src/main/java/br.ibm.sce.controller&apos;&#x0D;&#x0A;- Original element: &apos;br.ibm.sce.EstoqueController.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src\/main\/java&lt;br.ibm.sce.controller" element1="/src\/main\/java&lt;br.ibm.sce{EstoqueController.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" patterns="*" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1578502442885" units="1" version="1.0"/>
+</session>

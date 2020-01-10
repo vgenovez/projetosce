@@ -1,0 +1,25 @@
+package br.ibm.sce.model;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.validation.constraints.NotEmpty;
+
+@Entity
+@Table(name="TB_USUARIO")
+public class Usuario implements Serializable{
+
+	private static final long serialVersionUID = 1L;
+	
+	@Id
+	private String login;
+	
+	@NotEmpty
+	private String nome;
+	
+	@NotEmpty
+	private String senha;
+
+}
