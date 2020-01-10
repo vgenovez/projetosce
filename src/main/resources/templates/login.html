@@ -30,28 +30,27 @@
         </div>
 
         <div class="card-content">
+          
+          <form th:action="@{/}" method="post">
 
           <div class="form-field">
-            <label class="active" for="lbemail">Email</label>
-            <input id="inputEmail" type="email" required="required" class="login-email validade">
+            <label for="username">Usuario</label>
+            <input type="text" id="username" name="username"  required="required"/>
           </div><br>
 
           <div class="form-field">
-            <label for="lbsenha">Senha</label>
-            <input id="inputSenha" type="password" class="login-senha validade">
+            <label for="password">Senha</label>
+            <input id="password" type="password" name="password"/>
           </div><br>
-
-          <div class="form-field">
-            <label>
-              <input id="inputLembrar" type="checkbox" class="login-lembrar">
-              <span>Lembrar</span>
-            </label>
-          </div><br>
+          
+           <input type="submit" value="Log in" />
 
           <div class="form-field center-align">
             <a href="/index" class="waves-effect waves-red btn-large teal accent-4">Login</a>
             <a href="cadastro.html" class="waves-effect waves-yellow btn-large teal accent-4">Cadastro</a>
           </div><br>
+
+          </form>
 
         </div>
       </div>
