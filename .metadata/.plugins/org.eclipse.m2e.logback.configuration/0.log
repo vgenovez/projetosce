@@ -752,3 +752,24 @@ org.eclipse.core.runtime.CoreException: Could not read maven project
 2020-01-09 14:31:15,695 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
 2020-01-09 14:31:15,704 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-01-09 14:31:15,704 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 17:51:20,894 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:51:20,947 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 17:51:21,077 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 17:51:21,086 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 17:51:21,086 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 20:49:57,512 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2020-01-09 20:50:28,773 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:50:28,788 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 20:50:28,890 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 20:50:28,906 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 20:50:28,908 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 21:02:41,309 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:02:41,322 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:02:41,347 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 21:02:41,356 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:02:41,356 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
+2020-01-09 21:10:54,758 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:10:54,765 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-01-09 21:10:54,795 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 22 resources
+2020-01-09 21:10:54,804 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-01-09 21:10:54,804 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\Meus Projetos\sce\src\test\resources
