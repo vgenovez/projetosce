@@ -1,5 +1,7 @@
 package br.ibm.sce.security;
 
+import javax.transaction.Transactional;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -12,6 +14,7 @@ import br.ibm.sce.repository.UsuarioRepository;
 
 // Implementaçao do UserDetails
 @Repository
+@Transactional
 public class ImplementsUserDetailsService implements UserDetailsService{
 
 	@Autowired

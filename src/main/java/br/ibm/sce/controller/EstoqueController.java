@@ -20,14 +20,14 @@ public class EstoqueController {
 	@Autowired
 	private EstoqueRepository er;
 	
-	// Mapeia o login
-	@RequestMapping("/")
-	public String index() {
-		return "login";
+	// Mapeia a tela de login
+	@RequestMapping("/login")
+	public String login() {
+		return "/login";
 	}
 	
 	//Mapeia o index e mostra a lista
-	@RequestMapping("/index")
+	@RequestMapping("/")
 	public ModelAndView listaEstoque(){
 		ModelAndView mv = new ModelAndView("index");
 		Iterable<Estoque> estoques = er.findAll();
@@ -41,7 +41,7 @@ public class EstoqueController {
 		return "/add";
 	}
 	
-	//Salva os dados na tabela estoque
+	//Adiciona os dados na tabela estoque
 	@RequestMapping(value="/add", method=RequestMethod.POST)
 	public String addpost(@Valid Estoque estoque, BindingResult result, RedirectAttributes attributes){
 		if(result.hasErrors()) {
@@ -50,10 +50,10 @@ public class EstoqueController {
 		}
 		er.save(estoque);
 		attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
-		return "redirect:/index";
+		return "redirect:/";
 	}
 	
-	//Busca os dados via ID e mostra na tabela
+	//Busca os dados via ID e mostra na tabela e no input
 	@RequestMapping(value="/edit{id}", method=RequestMethod.GET)
 	public ModelAndView edit(@PathVariable("id") long id) {
 		Estoque estoques = er.findById(id);
@@ -63,7 +63,7 @@ public class EstoqueController {
 		return mv ;
 	}
 	
-	//Edita os dados e salva na tabela estoque
+	//Edita os dados e efetua um update na tabela estoque
 	@RequestMapping(value="/edit{id}", method=RequestMethod.POST)
 		public String editPost(@PathVariable("id") long id, @Valid Estoque estoque, BindingResult result, RedirectAttributes attributes) {
 		if(result.hasErrors()) {
@@ -72,7 +72,7 @@ public class EstoqueController {
 		}
 		er.save(estoque);
 		attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
-		return "redirect:/index";
+		return "redirect:/";
 	}	
 	
 	//Busca os dados via ID e mostra no form
@@ -94,7 +94,7 @@ public class EstoqueController {
 			}
 			er.save(estoque);
 			attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
-			return "redirect:/index";
+			return "redirect:/";
 	}		
 	
 }
