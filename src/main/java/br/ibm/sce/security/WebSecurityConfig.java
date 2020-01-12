@@ -23,19 +23,15 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	@Override
 	protected void configure(HttpSecurity http) throws Exception{
 		http.csrf().disable().authorizeRequests()
-		.antMatchers(HttpMethod.GET, "/index").hasRole("ADMIN")
-		.antMatchers(HttpMethod.GET, "/index").hasRole("USER")
-		.antMatchers(HttpMethod.POST, "/add").hasRole("ADMIN")
-		.antMatchers(HttpMethod.POST, "/add").hasRole("USER")
-		.antMatchers(HttpMethod.GET, "/edit{id}").hasRole("ADMIN")
-		.antMatchers(HttpMethod.GET, "/edit{id}").hasRole("USER")
-		.antMatchers(HttpMethod.POST, "/edit{id}").hasRole("ADMIN")
-		.antMatchers(HttpMethod.POST, "/edit{id}").hasRole("USER")
+		.antMatchers(HttpMethod.GET, "/index").hasAnyRole("USER","ADMIN")
+		.antMatchers(HttpMethod.POST, "/add").hasAnyRole("USER","ADMIN")
+		.antMatchers(HttpMethod.GET, "/edit{id}").hasAnyRole("USER","ADMIN")
+		.antMatchers(HttpMethod.POST, "/edit{id}").hasAnyRole("USER","ADMIN")
 		.antMatchers(HttpMethod.GET, "/addasset{id}").hasRole("ADMIN")
 		.antMatchers(HttpMethod.POST, "/addasset{id}").hasRole("ADMIN")
 		.anyRequest().authenticated()
 		.and().formLogin().loginPage("/login").permitAll()
-		.and().logout().logoutRequestMatcher(new AntPathRequestMatcher("/logout"));
+		.and().logout().logoutSuccessUrl("/login");
 	}
 	
 	@Override
@@ -48,4 +44,5 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	public void configure(WebSecurity web) throws Exception{
 		web.ignoring().antMatchers("/css/**","/fonts/**","/img/**","/js/**");
 	}
+
 }

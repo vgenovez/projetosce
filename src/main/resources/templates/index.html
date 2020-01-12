@@ -1,5 +1,9 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+<html xmlns:th="http://www.thymeleaf.org" 
+	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
+	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+	  lang="pt-br">
+
 
 <head>
   <meta charset="UTF-8"/>
@@ -22,12 +26,18 @@
       </div>
       <div>
         <i class="material-icons prefix">account_circle</i>
-        <label for="icon_prefix">First Name</label>
+        <label for="icon_prefix" sec:authentication="name">First Name</label>
+        <span th:text ="${#authentication.getPrincipal().getUsername()}"></span>
+  		<span th:value ="${#authentication.getPrincipal().getUsername()}"></span>
       </div>
       <div id="contalinhasTotal">
         <label for="linha">TOP</label>
       </div>
 
+	  <form th:action="@{/logout}" method="post">
+    	<input type="submit" value="Log out">
+	  </form>
+	  
       <a id="bt-exit" class="btn-floating btn-small waves-effect waves-light black">
         <i class="material-icons">exit_to_app</i>
       </a>
@@ -45,7 +55,7 @@
         </div>
       </div>
 
-      <div class="cbfiltro input-field col s12">
+	  <div class="cbfiltro input-field col s12">
         <select id="filtro" >
           <option value="" disabled selected>Filtro</option>
           <option value="1">Asset Tag</option>
@@ -120,8 +130,8 @@
             <td class="info-Posdoasset"><span th:text="${estoque.posdoativo}"></span></td>
             <td class="info-TecassetManager"><span th:text="${estoque.tecatman}"></span></td>
             <td class="info-Cham."><span th:text="${estoque.cham}"></span></td>
-            <td class="botaoacao "><a class="btn-floating btn-small waves-effect waves-light" th:href="${(#mvc.url('EC#edit').arg(0, estoque.id)).build()}"><i class="material-icons">edit</i> </a>
-                                   <a id ="" class="btn-floating btn-small waves-effect waves-light cyan" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}"><i class="material-icons">note</i></a></td>
+            <td class="botaoacao"><a class="btn-floating btn-small waves-effect waves-light" th:href="${(#mvc.url('EC#edit').arg(0, estoque.id)).build()}"><i class="material-icons">edit</i> </a>
+                                  <a sec:authorize="hasRole('ADMIN')" class="btn-floating btn-small waves-effect waves-light cyan" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}"><i class="material-icons">note</i></a></td>
             </tr>
           </tbody>
          </table>
