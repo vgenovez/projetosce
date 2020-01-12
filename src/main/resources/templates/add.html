@@ -113,7 +113,7 @@
               </div>
 
               <div class="invisivel">
-                <input type="text" value= sec:authentication="name" name="tecresp">
+                <input type="text" th:value ="${#authentication.getPrincipal().getUsername()}" name="tecresp">
                 <input type="text" value="NAO" name="posdoativo">
                 <input type="text" value="NP" name="tecatman">
                 <input type="text" value="NP" name="cham">

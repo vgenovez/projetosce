@@ -18,7 +18,6 @@ import org.thymeleaf.extras.springsecurity5.dialect.SpringSecurityDialect;
 import br.ibm.sce.model.Usuario;
 import br.ibm.sce.repository.UsuarioRepository;
 
-// Implementaçao do UserDetails
 @Repository
 @Transactional
 public class ImplementsUserDetailsService implements UserDetailsService{
@@ -26,6 +25,7 @@ public class ImplementsUserDetailsService implements UserDetailsService{
 	@Autowired
 	private UsuarioRepository ur;
 	
+	//Configuraçao para o uso do spring security no frontend
 	@Configuration
 	public class LeafConfig {
 
@@ -33,9 +33,9 @@ public class ImplementsUserDetailsService implements UserDetailsService{
 	    public SpringSecurityDialect springSecurityDialect(){
 	        return new SpringSecurityDialect();
 	    }
-
 	}
 	
+	//ControllerAdvice para utilizar o thymeleaf com o th:value - frontend
 	@ControllerAdvice
 	public class CurrentUserControllerAdvice {
 	    @ModelAttribute("currentUser")
@@ -44,6 +44,7 @@ public class ImplementsUserDetailsService implements UserDetailsService{
 	    }
 	}
 	
+	//Busca do login para o acesso
 	@Override
 	public UserDetails loadUserByUsername(String login) throws UsernameNotFoundException {
 		Usuario usuario = ur.findByLogin(login);
@@ -54,5 +55,5 @@ public class ImplementsUserDetailsService implements UserDetailsService{
 		
 		return new User(usuario.getUsername(), usuario.getPassword(), true, true, true, true, usuario.getAuthorities());
 	}
-
+	
 }

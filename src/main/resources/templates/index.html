@@ -72,9 +72,9 @@
           <option value="12">Status do Ativo</option>
           <option value="13">Tecnico Responsavel</option>
           <option value="14">Data de Cadastro</option>
-          <option value="15">Asset OK</option>
-          <option value="16">Tec. Asset Manager</option>
-          <option value="17">Chamado de Asset</option>
+          <option sec:authorize="hasRole('ADMIN')" value="15">Asset OK</option>
+          <option sec:authorize="hasRole('ADMIN')" value="16">Tec. Asset Manager</option>
+          <option sec:authorize="hasRole('ADMIN')" value="17">Chamado de Asset</option>
         </select>
       </div>
       <div>
@@ -104,9 +104,9 @@
             <th>St.do Ativo</th>
             <th>Tec. Resp</th>
             <th>Dt. Cad/Edit</th>
-            <th class="">Asset OK</th>
-            <th class="">Tec. Manager</th>
-            <th class="">Chamado de Asset</th>
+            <th sec:authorize="hasRole('ADMIN')">Asset OK</th>
+            <th sec:authorize="hasRole('ADMIN')">Tec. Manager</th>
+            <th sec:authorize="hasRole('ADMIN')">Chamado de Asset</th>
             <th></th>
           </tr>
         </thead>
@@ -127,9 +127,9 @@
             <td class="info-TecResponsavel"><span th:text="${estoque.tecresp}"></span></td>
             <td class="info-Datadecadastro"><span th:text="${#dates.format(estoque.dtcad,'dd-MMM-yyyy')}"></span>
                                             <span th:text="${#dates.format(estoque.dtupt,'dd-MMM-yyyy')}"></span></td>
-            <td class="info-Posdoasset"><span th:text="${estoque.posdoativo}"></span></td>
-            <td class="info-TecassetManager"><span th:text="${estoque.tecatman}"></span></td>
-            <td class="info-Cham."><span th:text="${estoque.cham}"></span></td>
+            <td class="info-Posdoasset" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.posdoativo}"></span></td>
+            <td class="info-TecassetManager" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.tecatman}"></span></td>
+            <td class="info-Cham" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.cham}"></span></td>
             <td class="botaoacao"><a class="btn-floating btn-small waves-effect waves-light" th:href="${(#mvc.url('EC#edit').arg(0, estoque.id)).build()}"><i class="material-icons">edit</i> </a>
                                   <a sec:authorize="hasRole('ADMIN')" class="btn-floating btn-small waves-effect waves-light cyan" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}"><i class="material-icons">note</i></a></td>
             </tr>

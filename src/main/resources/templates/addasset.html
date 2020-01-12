@@ -134,10 +134,11 @@
                 <input type="text" th:value="${estoque.usuario}" name="usuario">
                 <input type="text" th:value="${estoque.login}" name="login">
                 <input type="text" th:value="${estoque.nfiscal}" name="nfiscal">
-                <input id="stdoativo" type="text" th:value="${estoque.stdoativo}" name="stdoativo">
-                <input type="text" value="VITOR MANAGER" name="tecatman">
-                <input type="text" value="Vitor" name="tecresp">
+                <input type="text" th:value="${estoque.tecresp}" name="tecresp">
+                <input type="text" th:value="${#authentication.getPrincipal().getUsername()}" name="tecatman">
                 <input type="text" value="SIM" name="posdoativo">
+                <!-- Id adicionado para o uso do filtroindex.js-->
+                <input id="stdoativo" type="text" th:value="${estoque.stdoativo}" name="stdoativo">
               </div>
 
               <label class="active" for="iptcadcham">Numero do Chamado</label>
