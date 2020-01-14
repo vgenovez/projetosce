@@ -1,10 +1,8 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org" 
 	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
-	  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-	  lang="pt-br">
-
-
+    lang="pt-br">
+    
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -18,35 +16,36 @@
 <body>
   <main>
 
-    <!-- Titulo -->
-    <div class="titulo">
+    <header>
 
-      <div>
+      <!-- Titulo -->
+      <div class="titulo">
         <h5>SCE - Cadastro</h5>
       </div>
-      <div>
-        <i class="material-icons prefix">account_circle</i>
-        <label for="icon_prefix" sec:authentication="name">First Name</label>
-        <span th:text ="${#authentication.getPrincipal().getUsername()}"></span>
-  		<span th:value ="${#authentication.getPrincipal().getUsername()}"></span>
+
+      <!-- Mostra o nome do usuario logado -->
+      <div class="chip">
+        <img src="img/estoqueadd.jpeg" alt="Contact Person">
+        <span th:text ="${#authentication.getPrincipal().getUsername()}">
       </div>
+     
+      <!--Botao de logout-->
+      <form th:action="@{/logout}" method="post" class="nomeLogin">
+        <button class="modal-close btn-floating btn-small waves-effect waves-light black" type="submit" value="logout">
+        <i class="material-icons">exit_to_app</i></button>
+      </form>
+    
+     <!-- Contador de linhas
       <div id="contalinhasTotal">
         <label for="linha">TOP</label>
       </div>
+      -->
 
-	  <form th:action="@{/logout}" method="post">
-    	<input type="submit" value="Log out">
-	  </form>
-	  
-      <a id="bt-exit" class="btn-floating btn-small waves-effect waves-light black">
-        <i class="material-icons">exit_to_app</i>
-      </a>
+    </header>
 
-    </div>
+    <div class="telatop">
 
-    <!-- Botoes e Inputs-->
-    <section class="telatop">
-
+      <!--Campo de busca-->
       <div class="inputfiltro">
         <div class="input-field">
           <i class="material-icons prefix">search</i>
@@ -54,8 +53,9 @@
           <label for="filtrar-tabela">Buscar</label>
         </div>
       </div>
-
-	  <div class="cbfiltro input-field col s12">
+    
+      <!--Select do filtro -->
+	    <div class="cbfiltro input-field col s12">
         <select id="filtro" >
           <option value="" disabled selected>Filtro</option>
           <option value="1">Asset Tag</option>
@@ -77,15 +77,16 @@
           <option sec:authorize="hasRole('ADMIN')" value="17">Chamado de Asset</option>
         </select>
       </div>
+
+      <!--Botao de direcionamento para o "/add"-->
       <div>
         <a href="/add" class="btn-floating btn-large waves-effect waves-light blue">
-          <i class="material-icons">add</i>
-        </a>
+        <i class="material-icons">add</i></a>
       </div>
 
-    </section>
+    </div>
 
-    <!-- Tabela -->
+    <!--Tabela-->
     <section class="tabelatop">
       <table class="tabela centered">
         <thead>
@@ -134,14 +135,14 @@
                                   <a sec:authorize="hasRole('ADMIN')" class="btn-floating btn-small waves-effect waves-light cyan" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}"><i class="material-icons">note</i></a></td>
             </tr>
           </tbody>
-         </table>
-        </section>
+        </table>
+      </section>
          
-       <script src="js/filtroindex.js"></script>
-       <script src="js/jquery.js"></script>
-       <script src="js/framework.js"></script>
-       <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="js/filtroindex.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/framework.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
 
-    </main>
-  </body>
+  </main>
+</body>
 </html>

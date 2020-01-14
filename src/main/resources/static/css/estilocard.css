@@ -2,6 +2,12 @@
   font-family: Impact, Charcoal, sans-serif;
 }
 
+.chip{
+  float: right;
+  margin-top: -2cm;
+  font-family: Charcoal, sans-serif;
+}
+
 .estilo{
   margin-top: 40px;
 }

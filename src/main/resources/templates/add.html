@@ -30,10 +30,19 @@
         <div class="card">
 
           <div class="card-action teal accent-4 white-text center">
+
             <h4 class="titulo">SCE - ADICIONAR UMA NOVA ENTRADA</h4>
+             <!-- Mostra o nome do usuario logado -->
             <th:block th:include="validacao"></th:block>
+
+            <div class="chip">
+              <img src="img/login.jpeg" alt="Contact Person">
+              <span th:text ="${#authentication.getPrincipal().getUsername()}"/>
+            </div>  
+            
           </div>
 
+          
           <!-- Form para adicionar os dados na tabela -->
           <form method="post">
             <div class="card-content">
@@ -119,9 +128,13 @@
                 <input type="text" value="NP" name="cham">
               </div>
 
-              <div class="center-align">
+              <div class="botao-add">
+                <a href="/" class="btn-floating btn-large waves-effect waves-light green">
+                <i class="material-icons">keyboard_backspace</i>
+                </a>
+
                 <button class="modal-close btn-floating btn-large waves-effect waves-light blue" type="submit">
-                  <i class="material-icons">add</i></button>
+                <i class="material-icons">add</i></button>
               </div>
 
             </div>

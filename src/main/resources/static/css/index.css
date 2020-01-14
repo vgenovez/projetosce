@@ -2,12 +2,17 @@
 	box-sizing: border-box;
 }
 
+.header{
+	display: flex;
+}
+
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
 	font-size: 12px;
 }
 
 .titulo{
+	font-family: Impact, Charcoal, sans-serif;
 	display:flex;
 }
 
@@ -44,14 +49,19 @@ body{
     table-layout: 40px;
 }
 
-td, th {
-	border: 1px solid #ccc;
-}
-
 th{
 	font-weight: bold;
 	background-color: #EEE;
 }
+
+table tr td {
+	border-right: 1px solid #ccc;
+	border-left: 1px solid #ccc;
+  }
+  
+  table tr td:last-of-type {
+	border: none;
+  }
 
 .botaoacao{
 	display:flex;
