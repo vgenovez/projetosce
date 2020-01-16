@@ -6,4 +6,6 @@ import br.ibm.sce.model.Estoque;
 
 public interface EstoqueRepository extends CrudRepository<Estoque, Long> {
 	Estoque findById(long id);
+	Estoque findByAssettag(String assettag);
+	Estoque findBySerie(String serie);
 }
