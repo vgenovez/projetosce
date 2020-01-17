@@ -6,9 +6,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.validation.annotation.Validated;
-import org.springframework.web.bind.annotation.ExceptionHandler;
-import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -59,10 +56,6 @@ public class EstoqueController {
 		if(result.hasErrors()){
 			attributes.addFlashAttribute("mensagem", "Por favor, preencher todos os campos!");
 			return "redirect:/add";
-		}
-		if(er.findByAssettag(estoque.getAssettag()) != null) {
-			attributes.addFlashAttribute("mensagem", "Asset tag já existe!");
-			return "redirect:/add"; 
 		}
 		if(er.findBySerie(estoque.getSerie()) != null) {
 			attributes.addFlashAttribute("mensagem", "Serie já existe!");

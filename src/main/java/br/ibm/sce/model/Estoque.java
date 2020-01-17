@@ -26,7 +26,6 @@ public class Estoque implements Serializable {
 	private long id;
 	
 	@NotNull
-	@Column(unique = true)
 	private String assettag;
 	
 	@NotNull
