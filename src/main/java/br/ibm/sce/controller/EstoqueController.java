@@ -60,14 +60,12 @@ public class EstoqueController {
 			attributes.addFlashAttribute("mensagem", "Por favor, preencher todos os campos!");
 			return "redirect:/add";
 		}
-		if(er.findByAssettag(estoque.getAssettag()) != null) {
-			attributes.addFlashAttribute("mensagem", "Asset tag já existe!");
-			return "redirect:/add"; 
-		}
+		
 		if(er.findBySerie(estoque.getSerie()) != null) {
-			attributes.addFlashAttribute("mensagem", "Serie já existe!");
-			return "redirect:/add"; 
-		}		
+		attributes.addFlashAttribute("mensagem", "Serie já existe!");
+		return "redirect:/add"; 
+		}	
+		 
 		er.save(estoque);
 		attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
 		return "redirect:/";

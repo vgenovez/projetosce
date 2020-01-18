@@ -32,9 +32,9 @@
           <div class="card-action teal accent-4 white-text center">
 
             <h4 class="titulo">SCE - ADICIONAR UMA NOVA ENTRADA</h4>
-             <!-- Mostra o nome do usuario logado -->
             <th:block th:include="validacao"></th:block>
 
+            <!-- Mostra o nome do usuario logado -->
             <div class="chip">
               <img src="img/login.jpeg" alt="Contact Person">
               <span th:text ="${#authentication.getPrincipal().getUsername()}"/>
@@ -50,19 +50,20 @@
               <div class="row">
                 <div class="input-field col s2">
                   <label class="active" for="iptcadAssettag">Asset Tag</label>
-                  <input type="text" maxlength="10" name="assettag" class="validate" required="required"/>
+                  <input type="text" maxlength="10" name="assettag" class="validate" autocomplete=off 
+                         pattern="[a-zA-Z0-9]+" required="required"/>
                 </div>
                 <div class="input-field col s2">
                   <label class="active" for="iptcadHostname">Hostname</label>
-                  <input type="text" maxlength="10" value="" name="hostname" class="validate" required="required"/>
+                  <input type="text" maxlength="10" name="hostname" class="validate" autocomplete=off required="required"/>
                 </div>
                 <div class="input-field col s5">
                   <label class="active" for="iptcadModelo">Modelo</label>
-                  <input type="text" maxlength="40" value="" name="modelo" class="validate" required="required"/>
+                  <input type="text" maxlength="40" name="modelo" class="validate" autocomplete=off required="required"/>
                 </div>
                 <div class="input-field col s3">
                   <label class="active" for="iptcadSerie">Serie</label>
-                  <input type="text" maxlength="20" value="" name="serie" class="validate" required="required"/>
+                  <input type="text" maxlength="20" name="serie" class="validate" autocomplete=off required="required"/>
                 </div>
               </div>
 
@@ -94,22 +95,22 @@
                 </div>
                 <div class="input-field col s5">
                   <label class="active" for="iptcadlocalidade">Localidade</label>
-                  <input type="text" maxlength="50" value="" name="local" class="validate" required="required"/>
+                  <input type="text" maxlength="50" name="local" class="validate" autocomplete=off required="required"/>
                 </div>
               </div>
 
               <div class="row">
                 <div class="input-field col s4">
                   <label class="active" for="iptcadusuario">Usuario</label>
-                  <input type="text" maxlength="50" value="" name="usuario" class="validate" required="required"/>
+                  <input type="text" maxlength="50" name="usuario" class="validate" autocomplete=off required="required"/>
                 </div>
                 <div class="input-field col s3">
                   <label class="active" for="iptcadlogin">Login</label>
-                  <input type="text" maxlength="15" value="" name="login" class="validate" required="required"/>
+                  <input type="text" maxlength="15" value="" name="login" autocomplete=off class="validate" required="required"/>
                 </div>
                 <div class="input-field col s2">
                   <label class="active" for="iptcadnf">NF</label>
-                  <input type="text" maxlength="15" value="" name="nfiscal" class="validate" required="required"/>
+                  <input type="text" maxlength="15" value="" name="nfiscal" autocomplete=off class="validate" required="required"/>
                 </div>
                 <div class="stdoativo input-field col s3">
                   <select name="stdoativo">

@@ -1,0 +1,65 @@
+2020-01-16 08:37:38.772  INFO 25024 --- [restartedMain] br.ibm.sce.SceApplication                : Starting SceApplication on DESKTOP-QHQSVMV with PID 25024 (started by VITORAUGUSTOGENOVEZ in C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\sce)
+2020-01-16 08:37:38.774  INFO 25024 --- [restartedMain] br.ibm.sce.SceApplication                : No active profile set, falling back to default profiles: default
+2020-01-16 08:37:39.339  INFO 25024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-16 08:37:39.362  INFO 25024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22ms. Found 2 JPA repository interfaces.
+2020-01-16 08:37:39.542  INFO 25024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-16 08:37:39.611  WARN 25024 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 08:37:39.754  INFO 25024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 08:37:39.755  INFO 25024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 08:37:39.756  INFO 25024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 08:37:39.807  INFO 25024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 08:37:39.808  INFO 25024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1025 ms
+2020-01-16 08:37:39.899  INFO 25024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-16 08:37:39.910  INFO 25024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-01-16 08:37:40.141  INFO 25024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-01-16 08:37:40.142  INFO 25024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-01-16 08:37:40.513  INFO 25024 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-16 08:37:40.514  INFO 25024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-16 08:37:40.520  INFO 25024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 08:37:40.702  WARN 25024 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-16 08:37:40.769  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2020-01-16 08:37:40.772  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/fonts/**'], []
+2020-01-16 08:37:40.772  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/img/**'], []
+2020-01-16 08:37:40.773  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2020-01-16 08:37:40.791  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4cf73b35, org.springframework.security.web.context.SecurityContextPersistenceFilter@139b90bf, org.springframework.security.web.header.HeaderWriterFilter@3c32a832, org.springframework.security.web.authentication.logout.LogoutFilter@7fa3e6ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@16a3571c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ae2413c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13381d6a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@77bc298, org.springframework.security.web.session.SessionManagementFilter@5eafb8cb, org.springframework.security.web.access.ExceptionTranslationFilter@550f9bf3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@389728aa]
+2020-01-16 08:37:40.955  INFO 25024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 08:37:40.999  INFO 25024 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-16 08:37:41.161  INFO 25024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-16 08:37:41.163  INFO 25024 --- [restartedMain] br.ibm.sce.SceApplication                : Started SceApplication in 2.565 seconds (JVM running for 296.962)
+2020-01-16 08:37:41.167  INFO 25024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-16 08:39:00.812  INFO 25024 --- [Thread-10] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-01-16 08:39:00.816  INFO 25024 --- [Thread-10] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-01-16 08:39:00.818  INFO 25024 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2020-01-16 08:39:00.834  INFO 25024 --- [Thread-10] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2020-01-16 08:39:02.060  INFO 25024 --- [restartedMain] br.ibm.sce.SceApplication                : Starting SceApplication on DESKTOP-QHQSVMV with PID 25024 (started by VITORAUGUSTOGENOVEZ in C:\Users\VITORAUGUSTOGENOVEZ\Documents\Pessoal\Programação\Projetos\sce)
+2020-01-16 08:39:02.060  INFO 25024 --- [restartedMain] br.ibm.sce.SceApplication                : No active profile set, falling back to default profiles: default
+2020-01-16 08:39:02.902  INFO 25024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2020-01-16 08:39:02.963  INFO 25024 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59ms. Found 2 JPA repository interfaces.
+2020-01-16 08:39:03.308  INFO 25024 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-01-16 08:39:03.428  WARN 25024 --- [restartedMain] org.apache.tomcat.util.modeler.Registry  : The MBean registry cannot be disabled because it has already been initialised
+2020-01-16 08:39:03.670  INFO 25024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2020-01-16 08:39:03.671  INFO 25024 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-01-16 08:39:03.674  INFO 25024 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.29]
+2020-01-16 08:39:03.747  INFO 25024 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-01-16 08:39:03.748  INFO 25024 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1680 ms
+2020-01-16 08:39:03.893  INFO 25024 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-01-16 08:39:03.920  INFO 25024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2020-01-16 08:39:04.876  INFO 25024 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2020-01-16 08:39:04.877  INFO 25024 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-01-16 08:39:05.478  INFO 25024 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-01-16 08:39:05.478  INFO 25024 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-01-16 08:39:05.486  INFO 25024 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-01-16 08:39:05.802  WARN 25024 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2020-01-16 08:39:05.958  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/css/**'], []
+2020-01-16 08:39:05.958  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/fonts/**'], []
+2020-01-16 08:39:05.959  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/img/**'], []
+2020-01-16 08:39:05.959  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: Ant [pattern='/js/**'], []
+2020-01-16 08:39:05.976  INFO 25024 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@46203227, org.springframework.security.web.context.SecurityContextPersistenceFilter@19af3380, org.springframework.security.web.header.HeaderWriterFilter@482056d9, org.springframework.security.web.authentication.logout.LogoutFilter@26d61c65, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@416f4e81, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5acbd660, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1097c57e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4e0491eb, org.springframework.security.web.session.SessionManagementFilter@2d3f7f6d, org.springframework.security.web.access.ExceptionTranslationFilter@3caff104, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62e31ac4]
+2020-01-16 08:39:06.277  INFO 25024 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-01-16 08:39:06.400  INFO 25024 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-01-16 08:39:06.635  INFO 25024 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2020-01-16 08:39:06.636  INFO 25024 --- [restartedMain] br.ibm.sce.SceApplication                : Started SceApplication in 4.691 seconds (JVM running for 382.434)
+2020-01-16 08:39:06.639  INFO 25024 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-01-16 08:39:24.342  INFO 25024 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-01-16 08:39:24.343  INFO 25024 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-01-16 08:39:24.352  INFO 25024 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
