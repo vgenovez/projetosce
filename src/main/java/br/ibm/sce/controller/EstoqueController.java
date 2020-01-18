@@ -58,9 +58,10 @@ public class EstoqueController {
 			return "redirect:/add";
 		}
 		if(er.findBySerie(estoque.getSerie()) != null) {
-			attributes.addFlashAttribute("mensagem", "Serie já existe!");
-			return "redirect:/add"; 
-		}		
+		attributes.addFlashAttribute("mensagem", "Serie já existe!");
+		return "redirect:/add"; 
+		}	
+		 
 		er.save(estoque);
 		attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
 		return "redirect:/";
