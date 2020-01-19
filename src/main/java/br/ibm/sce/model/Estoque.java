@@ -90,7 +90,6 @@ public class Estoque implements Serializable {
 		setDtupt(new Date());
 	}
 	
-	
 	public long getId() {
 		return id;
 	}

@@ -1,17 +1,14 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" 
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
-      lang="pt-br">
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
 
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SCE</title>
-  <link type="image/x-icon" rel="icon" href="img/icone.ico"/>
-  <link type="text/css" rel="stylesheet" href="css/estilocard.css"/>
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="icon" type="image/x-icon" href="img/icone.ico" />
+  <link rel="stylesheet" type="text/css" href="css/estilocard.css" />
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 
 <style>
@@ -37,12 +34,11 @@
             <!-- Mostra o nome do usuario logado -->
             <div class="chip">
               <img src="img/login.jpeg" alt="Contact Person">
-              <span th:text ="${#authentication.getPrincipal().getUsername()}"/>
+              <span th:text="${#authentication.getPrincipal().getUsername()}">
             </div>  
             
           </div>
 
-          
           <!-- Form para adicionar os dados na tabela -->
           <form method="post">
             <div class="card-content">
@@ -55,7 +51,8 @@
                 </div>
                 <div class="input-field col s2">
                   <label class="active" for="iptcadHostname">Hostname</label>
-                  <input type="text" maxlength="10" name="hostname" class="validate" autocomplete=off required="required"/>
+                  <input type="text" maxlength="10" name="hostname" class="validate" autocomplete=off 
+                         pattern="[a-zA-Z0-9]+" required="required"/>
                 </div>
                 <div class="input-field col s5">
                   <label class="active" for="iptcadModelo">Modelo</label>
@@ -63,7 +60,8 @@
                 </div>
                 <div class="input-field col s3">
                   <label class="active" for="iptcadSerie">Serie</label>
-                  <input type="text" maxlength="20" name="serie" class="validate" autocomplete=off required="required"/>
+                  <input type="text" maxlength="20" name="serie" class="validate" autocomplete=off 
+                         pattern="[a-zA-Z0-9]+" required="required"/>
                 </div>
               </div>
 
@@ -148,7 +146,6 @@
     <script src="js/jquery.js"></script>
     <script src="js/framework.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
-
 
   </main>
 </body>

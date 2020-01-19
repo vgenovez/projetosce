@@ -2,10 +2,6 @@
   font-family: Impact, Charcoal, sans-serif;
 }
 
-.teste {
-  background: rgba(0, 0, 0, .6);
-}
-
 .chip{
   float: right;
   margin-top: -2.2cm;
@@ -59,4 +55,3 @@
 .invisivel {
 	display: none;
 }
-

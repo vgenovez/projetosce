@@ -5,9 +5,9 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SCE</title>
-  <link type="image/x-icon" rel="icon" href="img/icone.ico"/>
-  <link type="text/css" rel="stylesheet" href="css/estilocard.css"/>
-  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"/>
+  <link rel="icon" type="image/x-icon" href="img/icone.ico"/>
+  <link rel="stylesheet" type="text/css" href="css/estilocard.css"/>
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 </head>
 
@@ -27,8 +27,16 @@
         <div class="card">
 
           <div class="card-action teal accent-4 white-text center">
+
             <h4 class="titulo">SCE - ASSET MANAGER</h4>
             <th:block th:include="validacao"></th:block>
+
+            <!-- Mostra o nome do usuario logado -->
+            <div class="chip">
+              <img src="img/login.jpeg" alt="Contact Person">
+              <span th:text="${#authentication.getPrincipal().getUsername()}">
+            </div>  
+
           </div>
 
           <div class="card-content">
@@ -144,9 +152,13 @@
               <label class="active" for="iptcadcham">Numero do Chamado</label>
               <input type="text" th:value="${estoque.cham}" maxlength="10" name="cham" class="validate" required="required"/>
 
-              <div class="center-align">
+              <div class="botao-add">
+                <a href="/" class="btn-floating btn-large waves-effect waves-light green">
+                <i class="material-icons">keyboard_backspace</i>
+                </a>
+
                 <button class="modal-close btn-floating btn-large waves-effect waves-light blue" type="submit">
-                  <i class="material-icons">add</i></button>
+                <i class="material-icons">add</i></button>
               </div>
 
             </form>
