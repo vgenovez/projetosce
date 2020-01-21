@@ -20,20 +20,23 @@
 
       <!-- Titulo -->
       <div class="titulo">
-        <h5>SCE - Cadastro</h5>
+        <h3>SCE - SISTEMA DE CONTROLE DE ESTOQUE</h3>
       </div>
 
       <!-- Mostra o nome do usuario logado -->
+      <div class = "pagLogin">
+
       <div class="chip">
         <img src="img/estoqueadd.jpeg" alt="Contact Person">
         <span th:text ="${#authentication.getPrincipal().getUsername()}">
       </div>
-     
+      
       <!--Botao de logout-->
       <form th:action="@{/logout}" method="post" class="nomeLogin">
         <button class="modal-close btn-floating btn-small waves-effect waves-light black" type="submit" value="logout">
         <i class="material-icons">exit_to_app</i></button>
       </form>
+      </div>
     
      <!-- Contador de linhas
       <div id="contalinhasTotal">
@@ -87,8 +90,11 @@
     </div>
 
     <!--Tabela-->
-    <section class="tabelatop">
-      <table class="tabela centered">
+   <!-- <section class="tabelatop"> --> 
+
+    <div id="table-wrapper">
+      <div id="table-scroll">
+      <table class="centered">
         <thead>
           <tr>
             <th>Asset Tag</th>
@@ -136,7 +142,9 @@
             </tr>
           </tbody>
         </table>
-      </section>
+      </div>
+    </div>
+     <!-- </section>-->
          
     <script src="js/filtroindex.js"></script>
     <script src="js/jquery.js"></script>
