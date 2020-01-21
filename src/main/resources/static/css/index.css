@@ -7,25 +7,24 @@ body{
 	font-size: 12px;
 }
 
+.pagLogin{
+	display:flex;
+	margin-top: 0.2cm;
+	margin-left: 32cm;
+	margin-bottom: -0.8cm;
+	font-family: Charcoal, sans-serif;
+}
+
 .titulo{
 	display: flex;
 	justify-content: center;
 	font-family: Impact, Charcoal, sans-serif;
 }
 
-.pagLogin{
-	display:flex;
-	margin-top:-2.2cm;
-	margin-left: 32cm;
-	margin-bottom: 0.5cm;
-	font-family: Charcoal, sans-serif;
-}
-
 .telatop{
 	display:flex;
-	flex-direction: row;
 	justify-content: space-evenly;
-	margin-top: 1.5cm;
+	margin-top: 0.2cm;
 }
 
 .inputfiltro{
@@ -37,11 +36,10 @@ body{
 #filtrar-tabela{
 	width: 400px;
 	height: 35px;
-	margin-bottom: 10px;
 }
 
 .cbfiltro{
-	top: 1px;
+	top: 0cm;
 }
 
 .tabelatop{
@@ -82,7 +80,7 @@ table tr td {
   }
   
   #table-scroll {
-	height:390px;
+	height:415px;
 	overflow:auto;  
 	margin-top:0px;
   }

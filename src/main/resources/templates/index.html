@@ -1,41 +1,38 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" 
-	  xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
-    lang="pt-br">
-    
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
+  lang="pt-br">
+
 <head>
-  <meta charset="UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SCE</title>
-  <link rel="icon" type="image/x-icon" href="img/icone.ico"/>
-  <link rel="stylesheet" type="text/css" href="css/index.css"/>
-  <link rel="stylesheet" type="text/css"  href="css/materialize.min.css"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="icon" type="image/x-icon" href="img/icone.ico" />
+  <link rel="stylesheet" type="text/css" href="css/index.css" />
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
 </head>
 
 <body>
   <main>
 
     <header>
+      <div class="pagLogin">
+        <!-- Mostra o nome do usuario logado -->
+        <div class="chip">
+          <img src="img/estoqueadd.jpeg" alt="Contact Person">
+          <span th:text="${#authentication.getPrincipal().getUsername()}">
+        </div>
+        
+        <!--Botao de logout-->
+        <form th:action="@{/logout}" method="post" class="nomeLogin">
+          <button class="modal-close btn-floating btn-small waves-effect waves-light black" type="submit" value="logout">
+          <i class="material-icons">exit_to_app</i></button>
+        </form>
+      </div>
 
       <!-- Titulo -->
       <div class="titulo">
         <h3>SCE - SISTEMA DE CONTROLE DE ESTOQUE</h3>
-      </div>
-
-      <!-- Mostra o nome do usuario logado -->
-      <div class = "pagLogin">
-
-      <div class="chip">
-        <img src="img/estoqueadd.jpeg" alt="Contact Person">
-        <span th:text ="${#authentication.getPrincipal().getUsername()}">
-      </div>
-      
-      <!--Botao de logout-->
-      <form th:action="@{/logout}" method="post" class="nomeLogin">
-        <button class="modal-close btn-floating btn-small waves-effect waves-light black" type="submit" value="logout">
-        <i class="material-icons">exit_to_app</i></button>
-      </form>
       </div>
     
      <!-- Contador de linhas
@@ -43,7 +40,6 @@
         <label for="linha">TOP</label>
       </div>
       -->
-
     </header>
 
     <div class="telatop">
