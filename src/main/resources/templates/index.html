@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity5"
-  lang="pt-br">
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
 
 <head>
   <meta charset="UTF-8" />
@@ -9,17 +8,24 @@
   <link rel="icon" type="image/x-icon" href="img/icone.ico" />
   <link rel="stylesheet" type="text/css" href="css/index.css" />
   <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+  <link rel="stylesheet" type="text/css" href="css/materialIcons.css"/>
 </head>
+
+<style>
+  body {
+       background-color: #00bfa5 !important;
+  }
+</style>
 
 <body>
   <main>
 
     <header>
       <div class="pagLogin">
+
         <!-- Mostra o nome do usuario logado -->
         <div class="chip">
-          <img src="img/estoqueadd.jpeg" alt="Contact Person">
+          <img src="img/login.jpeg" alt="Contact Person">
           <span th:text="${#authentication.getPrincipal().getUsername()}">
         </div>
         
@@ -35,11 +41,6 @@
         <h3>SCE - SISTEMA DE CONTROLE DE ESTOQUE</h3>
       </div>
     
-     <!-- Contador de linhas
-      <div id="contalinhasTotal">
-        <label for="linha">TOP</label>
-      </div>
-      -->
     </header>
 
     <div class="telatop">
@@ -49,14 +50,14 @@
         <div class="input-field">
           <i class="material-icons prefix">search</i>
           <textarea id="filtrar-tabela" class="materialize-textarea"></textarea>
-          <label for="filtrar-tabela">Buscar</label>
+          <label id="lbinputfiltro" for="filtrar-tabela">BUSCAR</label>
         </div>
       </div>
     
       <!--Select do filtro -->
 	    <div class="cbfiltro input-field col s12">
         <select id="filtro" >
-          <option value="" disabled selected>Filtro</option>
+          <option value="" disabled selected>FILTRO</option>
           <option value="1">Asset Tag</option>
           <option value="2">Hostname</option>
           <option value="3">Modelo</option>
@@ -79,17 +80,15 @@
 
       <!--Botao de direcionamento para o "/add"-->
       <div>
-        <a href="/add" class="btn-floating btn-large waves-effect waves-light blue">
+        <a href="/add" id="botaoadd" class="btn-floating btn-large waves-effect waves-light blue">
         <i class="material-icons">add</i></a>
       </div>
 
     </div>
 
     <!--Tabela-->
-   <!-- <section class="tabelatop"> --> 
-
-    <div id="table-wrapper">
-      <div id="table-scroll">
+    <div id="tabela">
+      <div id="tabela-scroll">
       <table class="centered">
         <thead>
           <tr>
@@ -109,7 +108,7 @@
             <th>Dt. Cad/Edit</th>
             <th sec:authorize="hasRole('ADMIN')">Asset OK</th>
             <th sec:authorize="hasRole('ADMIN')">Tec. Manager</th>
-            <th sec:authorize="hasRole('ADMIN')">Chamado de Asset</th>
+            <th sec:authorize="hasRole('ADMIN')">Cham. Asset</th>
             <th></th>
           </tr>
         </thead>
@@ -133,14 +132,13 @@
             <td class="info-Posdoasset" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.posdoativo}"></span></td>
             <td class="info-TecassetManager" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.tecatman}"></span></td>
             <td class="info-Cham" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.cham}"></span></td>
-            <td class="botaoacao"><a class="btn-floating btn-small waves-effect waves-light" th:href="${(#mvc.url('EC#edit').arg(0, estoque.id)).build()}"><i class="material-icons">edit</i> </a>
-                                  <a sec:authorize="hasRole('ADMIN')" class="btn-floating btn-small waves-effect waves-light cyan" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}"><i class="material-icons">note</i></a></td>
-            </tr>
-          </tbody>
-        </table>
+            <td class="botaoacao"><a th:href="${(#mvc.url('EC#edit').arg(0, estoque.id)).build()}">EDITAR</a><hr>
+                                  <a sec:authorize="hasRole('ADMIN')" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}">ASSET</a></td>
+          </tr>
+        </tbody>
+      </table>
       </div>
     </div>
-     <!-- </section>-->
          
     <script src="js/filtroindex.js"></script>
     <script src="js/jquery.js"></script>

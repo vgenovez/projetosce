@@ -8,7 +8,7 @@
   <link rel="icon" type="image/x-icon" href="img/icone.ico"/>
   <link rel="stylesheet" type="text/css" href="css/estilocard.css"/>
   <link rel="stylesheet" type="text/css" href="css/materialize.min.css"/>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+  <link rel="stylesheet" type="text/css" href="css/materialIcons.css"/>
 </head>
 
 <style>
@@ -39,7 +39,7 @@
 
           </div>
 
-          <div class="card-content">
+          <diwhav class="card-content">
 
             <!-- Form com os dados de Asset -->
             <form method="post" th:each="estoque : ${estoques}" id="formestoque">
@@ -126,8 +126,20 @@
               <hr>
               <br>
             </form>
+            
+            <form th:each="chamado: ${chamados}">
 
+              TOP 10
+              <input type="text" th:text="${chamado.chamado}" name="chamado"/>
+              <input type="text" th:text="${#authentication.getPrincipal().getUsername()}" name="nometec"/>
+
+              <button class="modal-close btn-floating btn-large waves-effect waves-light blue" type="submit">
+                <i class="material-icons">add</i></button>
+
+            </form>
+            
             <!-- Inserir o chamado na tabela -->
+            <!-- 
             <form method="post" th:each="estoque : ${estoques}">
 
               <div class="invisivel">
@@ -144,8 +156,9 @@
                 <input type="text" th:value="${estoque.nfiscal}" name="nfiscal">
                 <input type="text" th:value="${estoque.tecresp}" name="tecresp">
                 <input type="text" th:value="${#authentication.getPrincipal().getUsername()}" name="tecatman">
-                <input type="text" value="SIM" name="posdoativo">
+                <input type="text" value="SIM" name="posdoativo"> -->
                 <!-- Id adicionado para o uso do filtroindex.js-->
+                <!--
                 <input id="stdoativo" type="text" th:value="${estoque.stdoativo}" name="stdoativo">
               </div>
 
@@ -162,8 +175,10 @@
               </div>
 
             </form>
+          -->
 
-          </div>
+
+          </diwhav>
         </div>
       </div>
     </div>
