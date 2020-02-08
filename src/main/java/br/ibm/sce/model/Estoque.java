@@ -2,11 +2,14 @@ package br.ibm.sce.model;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 import javax.persistence.PrePersist;
 import javax.persistence.PreUpdate;
 import javax.persistence.Table;
@@ -65,14 +68,11 @@ public class Estoque implements Serializable {
 	@NotNull
 	private String tecresp;
 	
-	@NotNull
 	private String posdoativo;
 	
-	@NotNull
-	private String tecatman;
-	
-	@NotNull
 	private String cham;
+	
+	private String tecatresp;
 	
 	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private Date dtcad;
@@ -89,6 +89,11 @@ public class Estoque implements Serializable {
 	private void onDtupt() {
 		setDtupt(new Date());
 	}
+
+	@OneToMany
+	private List<Chamado> chamados;
+	
+	//Getter and Setters
 	
 	public long getId() {
 		return id;
@@ -222,16 +227,8 @@ public class Estoque implements Serializable {
 		return posdoativo;
 	}
 
-	public void setPosdoativo(String posdoativo) {
-		this.posdoativo = posdoativo;
-	}
-
-	public String getTecatman() {
-		return tecatman;
-	}
-
-	public void setTecatman(String tecatman) {
-		this.tecatman = tecatman;
+	public String setPosdoativo(String posdoativo) {
+		return this.posdoativo = posdoativo;
 	}
 
 	public String getCham() {
@@ -240,6 +237,14 @@ public class Estoque implements Serializable {
 
 	public void setCham(String cham) {
 		this.cham = cham;
+	}
+
+	public String getTecatresp() {
+		return tecatresp;
+	}
+
+	public void setTecatresp(String tecatresp) {
+		this.tecatresp = tecatresp;
 	}
 
 }

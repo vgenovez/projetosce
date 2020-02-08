@@ -12,7 +12,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
+import br.ibm.sce.model.Chamado;
 import br.ibm.sce.model.Estoque;
+import br.ibm.sce.repository.ChamadoRepository;
 import br.ibm.sce.repository.EstoqueRepository;
 
 @Controller
@@ -20,6 +22,10 @@ public class EstoqueController {
 	
 	@Autowired
 	private EstoqueRepository er;
+	
+	@Autowired
+	private ChamadoRepository cr;
+	
 	
 	// Mapeia a tela de login
 	@RequestMapping("/login")
@@ -40,6 +46,7 @@ public class EstoqueController {
 		ModelAndView mv = new ModelAndView("index");
 		Iterable<Estoque> estoques = er.findAll();
 		mv.addObject("estoques", estoques);
+		
 		return mv;
 	}
 	
@@ -53,17 +60,24 @@ public class EstoqueController {
 	@RequestMapping(value="/add", method=RequestMethod.POST)
 	public String addpost(@Valid Estoque estoque, BindingResult result, RedirectAttributes attributes){
 		
+		String pativo = "NAO";
+		String chm = "NP";
+		
+		estoque.setPosdoativo(pativo);
+		estoque.setCham(chm);
+		estoque.setTecatresp(chm);
+		
 		if(result.hasErrors()){
 			attributes.addFlashAttribute("mensagem", "Por favor, preencher todos os campos!");
 			return "redirect:/add";
 		}
 		if(er.findBySerie(estoque.getSerie()) != null) {
-		attributes.addFlashAttribute("mensagem", "Serie já existe!");
-		return "redirect:/add"; 
-		}	
-		 
-		er.save(estoque);
-		attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
+			attributes.addFlashAttribute("mensagem", "Serie já existe!");
+			return "redirect:/add";
+		}
+		
+		er.save(estoque); 
+		
 		return "redirect:/";
 	}
 	
@@ -77,38 +91,59 @@ public class EstoqueController {
 		return mv ;
 	}
 	
-	//Edita os dados e efetua um update na tabela estoque
+	//Edita os dados e efetua o update na tabela estoque
 	@RequestMapping(value="/edit{id}", method=RequestMethod.POST)
 		public String editPost(@PathVariable("id") long id, @Valid Estoque estoque, BindingResult result, RedirectAttributes attributes) {
+			
 		if(result.hasErrors()) {
 			attributes.addFlashAttribute("mensagem", "Por favor, preencher todos os campos!");
 			return "redirect:/edit";
 		}
+		
+		String pativo = "NAO";
+		Estoque estoques = er.findById(id);
+		estoque.setPosdoativo(pativo);
+		estoque.setCham(estoques.getCham());
+		estoque.setTecatresp(estoques.getTecatresp());
+				
 		er.save(estoque);
-		attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
+	
 		return "redirect:/";
 	}	
 	
-	//Busca os dados via ID e mostra no form
+	//Busca os dados via ID e mostra no form de Asset
 	@RequestMapping(value="/addasset{id}", method=RequestMethod.GET)
 		public ModelAndView addasset(@PathVariable("id") long id) {
 		Estoque estoques = er.findById(id);
 		ModelAndView mv = new ModelAndView("/addasset");
 		mv.addObject("estoques", estoques);
+		
+		Iterable<Chamado> chamado = cr.findByEstoque(estoques);
+		mv.addObject("chamados", chamado);
 			
 		return mv ;
 	}
 	
 	//Adiciona o chamado na tabela
 	@RequestMapping(value="/addasset{id}", method=RequestMethod.POST)
-		public String addassetpost(@PathVariable("id") long id, @Valid Estoque estoque, BindingResult result, RedirectAttributes attributes) {
+		public String addassetpost(@PathVariable("id") long id,@Valid Estoque estoque, @Valid Chamado chamado, BindingResult result, RedirectAttributes attributes) {
+					
 			if(result.hasErrors()) {
 				attributes.addFlashAttribute("mensagem", "Por favor, preencher todos os campos!");
 				return "redirect:/addasset";
 			}
+			
+			String pativo = "SIM"; 
+			estoque.setPosdoativo(pativo);
+			
+			Estoque estoques = er.findById(id);	
+			
+			estoque.setCham(chamado.getChamados());
+			estoque.setTecatresp(chamado.getNometec());
+			chamado.setEstoque(estoques);
+			
 			er.save(estoque);
-			attributes.addFlashAttribute("mensagem", "Dados Cadastrados!");
+			cr.save(chamado);
 			return "redirect:/";
-	}		
-	
+	}
 }

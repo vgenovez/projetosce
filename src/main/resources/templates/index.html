@@ -130,8 +130,8 @@
             <td class="info-Datadecadastro"><span th:text="${#dates.format(estoque.dtcad,'dd-MMM-yyyy')}"></span>
                                             <span th:text="${#dates.format(estoque.dtupt,'dd-MMM-yyyy')}"></span></td>
             <td class="info-Posdoasset" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.posdoativo}"></span></td>
-            <td class="info-TecassetManager" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.tecatman}"></span></td>
-            <td class="info-Cham" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.cham}"></span></td>
+            <td class="info-TecassetManager" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.tecatresp}"></span></td>
+            <td class="info-Cham" sec:authorize="hasRole('ADMIN')"><span th:text="${estoque.cham}">Editar</span></td>
             <td class="botaoacao"><a th:href="${(#mvc.url('EC#edit').arg(0, estoque.id)).build()}">EDITAR</a><hr>
                                   <a sec:authorize="hasRole('ADMIN')" th:href="${(#mvc.url('EC#addasset').arg(0, estoque.id)).build()}">ASSET</a></td>
           </tr>
