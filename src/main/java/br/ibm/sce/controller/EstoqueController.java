@@ -34,10 +34,10 @@ public class EstoqueController {
 	}
 	
 	// Mapeamento do erro de login
-	 @RequestMapping("/login-error.html")
+	 @RequestMapping("/login-Error")
 	 public String loginError(Model model) {
 	   model.addAttribute("loginError", true);
-	   return "login.html";
+	   return "/login";
 	 }
 	
 	//Mapeia o index e mostra a lista
