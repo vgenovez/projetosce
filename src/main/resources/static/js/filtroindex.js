@@ -1,28 +1,6 @@
-//Total de linhas na tabela
-var linhas = document.querySelectorAll(".asset");
-recebelinhastotal(linhas.length);
-
-//Total de linhas com asset "Nao"
-var assetlinha = document.querySelectorAll(".asset");
-var atsim = 0;    
-var atnao = 0;
-for (var i = 0; i < assetlinha.length; i++){
-    
-    var assetlinhas = assetlinha[i];
-    var atposdoasset = assetlinhas.querySelector(".info-Posdoasset");
-    var atposdoassets = atposdoasset.textContent;
-
-    if (atposdoassets == "SIM"){   
-        atsim += 1;
-    }else{
-        atnao += 1;
-    }
-    recebelinhassim(atsim);
-    recebelinhasnao(atnao);
-}
-
 //Busca no Filtro
 var campoBusca = document.querySelector("#filtrar-tabela");
+
 campoBusca.addEventListener("input", function () {
     var asset = document.querySelectorAll(".asset");
 
@@ -230,11 +208,33 @@ campoBusca.addEventListener("input", function () {
         }
     }
 });
+
 // Função que busca o valor do filtro ao selecionar.
 function filtroSelect(recebevalor) {
     var localId = document.getElementById("filtro");
     var recebevalor = localId.options[localId.selectedIndex].value;
     return recebevalor;
+}
+
+//Função contador de linhas "Total" / "Asset Nao" / " Asset SIM"
+var assetlinha = document.querySelectorAll(".asset");
+recebelinhastotal(assetlinha.length);
+
+var atsim = 0;    
+var atnao = 0;
+for (var i = 0; i < assetlinha.length; i++){
+    
+    var assetlinhas = assetlinha[i];
+    var atposdoasset = assetlinhas.querySelector(".info-Posdoasset");
+    var atposdoassets = atposdoasset.textContent;
+
+    if (atposdoassets == "SIM"){   
+        atsim += 1;
+    }else{
+        atnao += 1;
+    }
+    recebelinhassim(atsim);
+    recebelinhasnao(atnao);
 }
 
 // Função que aplica o valor das linhas no HTML
