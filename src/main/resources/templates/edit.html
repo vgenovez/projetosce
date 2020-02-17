@@ -47,21 +47,21 @@
                 <div class="input-field col s2">
                   <label class="active" for="iptcadAssettag">Asset Tag</label>
                   <input type="text" th:value="${estoque.assettag}" maxlength="10" name="assettag" class="validate"
-                         pattern="[a-zA-Z0-9]+" required="required"/>
+                         pattern="[a-zA-Z0-9]+" required="required" autocomplete=off/>
                 </div>
                 <div class="input-field col s2">
                   <label class="active" for="iptcadHostname">Hostname</label>
                   <input type="text" th:value="${estoque.hostname}" maxlength="10" name="hostname" class="validate" 
-                         pattern="[a-zA-Z0-9]+" required="required"/>
+                         pattern="[a-zA-Z0-9]+" required="required" autocomplete=off/>
                 </div>
                 <div class="input-field col s5">
                   <label class="active" for="iptcadModelo">Modelo</label>
-                  <input type="text" th:value="${estoque.modelo}" maxlength="40" name="modelo" class="validate" required="required"/>
+                  <input type="text" th:value="${estoque.modelo}" maxlength="40" name="modelo" class="validate" required="required" autocomplete=off/>
                 </div>
                 <div class="input-field col s3">
                   <label class="active" for="iptcadSerie">Serie</label>
                   <input type="text" th:value="${estoque.serie}" maxlength="20" name="serie" class="validate"
-                         pattern="[a-zA-Z0-9]+" required="required"/>
+                         pattern="[a-zA-Z0-9]+" required="required" autocomplete=off/>
                 </div>
               </div>
 
@@ -93,22 +93,22 @@
                 </div>
                 <div class="input-field col s5">
                   <label class="active" for="iptcadlocalidade">Localidade</label>
-                  <input type="text" maxlength="50" th:value="${estoque.local}" name="local" class="validate" required="required"/>
+                  <input type="text" maxlength="50" th:value="${estoque.local}" name="local" class="validate" required="required" autocomplete=off/>
                 </div>
               </div>
 
               <div class="row">
                 <div class="input-field col s4">
                   <label class="active" for="iptcadusuario">Usuario</label>
-                  <input type="text" maxlength="50" th:value="${estoque.usuario}" name="usuario" class="validate" required="required"/>
+                  <input type="text" maxlength="50" th:value="${estoque.usuario}" name="usuario" class="validate" required="required" autocomplete=off/>
                 </div>
                 <div class="input-field col s3">
                   <label class="active" for="iptcadlogin">Login</label>
-                  <input type="text" maxlength="15" th:value="${estoque.login}" name="login" class="validate" required="required"/>
+                  <input type="text" maxlength="15" th:value="${estoque.login}" name="login" class="validate" required="required" autocomplete=off/>
                 </div>
                 <div class="input-field col s2">
                   <label class="active" for="iptcadnf">NF</label>
-                  <input type="text" maxlength="15" th:value="${estoque.nfiscal}" name="nfiscal" class="validate" required="required"/> 
+                  <input type="text" maxlength="15" th:value="${estoque.nfiscal}" name="nfiscal" class="validate" required="required" autocomplete=off/> 
                 </div>
                 <div class="stdoativo input-field col s3">
                   <select name="stdoativo">

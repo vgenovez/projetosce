@@ -84,6 +84,24 @@
         <i class="material-icons">add</i></a>
       </div>
 
+      <!--Contator-->
+      <div class="contadorIndex">
+        <div>
+      	  <h8>TOTAL DE ITENS = </h8>
+          <label id="contalinhasTotal"></label> 
+        </div>
+
+        <div sec:authorize="hasRole('ADMIN')">
+      	  <h8>ASSET OK = </h8>
+          <label id="contalinhasatSIM"></label> 
+        </div>
+
+        <div sec:authorize="hasRole('ADMIN')">
+      	  <h8 >ASSET NOK = </h8>
+          <label id="contalinhasatNAO"></label> 
+        </div>
+      </div>
+
     </div>
 
     <!--Tabela-->

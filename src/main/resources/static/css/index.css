@@ -24,6 +24,19 @@ body{
 	font-family: Impact, Charcoal, sans-serif;
 }
 
+.contadorIndex{
+	display: right;
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	font-family: Charcoal, sans-serif;
+}
+
+.lblcontadorIndex{
+	color: #fff;
+	font-size: 15px;
+}
+
 .telatop{
 	display:flex;
 	justify-content: space-evenly;

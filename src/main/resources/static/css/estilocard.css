@@ -55,3 +55,19 @@
 .invisivel {
 	display: none;
 }
+
+.txtareaAsset {
+  color: #fff;
+  text-align: left;
+  width: 380px; 
+  height: 300px; 
+  resize: none;
+}
+
+.sairaddasset {
+  top: 0.3cm;
+}
+
+.addaddasset{
+  top: 0.3cm;
+}

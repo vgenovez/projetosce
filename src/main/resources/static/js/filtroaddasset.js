@@ -1,3 +1,4 @@
+// Mostra o form conforme o valor do status do ativo
 var campoStAtivo = document.getElementById("stdoativo");
 var recebeStAtivo = campoStAtivo.value;
 
@@ -12,15 +13,44 @@ if (recebeStAtivo == "Ativo"){
     document.getElementById("formestoque").style.display = "none";
 }
 
-// Funçao para copiar
-
-$('#btcopiar').click(function(){
-$('#formativo').select();
-try {
-        var ok = document.execCommand('copy');
-        if (ok) { alert('Texto copiado para a área de transferência'); }
-    } catch (e) {
-    alert(e)
-}
+// Função botão copiar ativo
+$(function(){
+    $('#btativo').click(function(){
+        $('#textareaAtivo').select();
+        var copiar = document.execCommand('copy');
+        if(copiar){
+            alert('Copiado');
+        }else {
+            alert('Erro ao copiar, mude o navegador');
+        }
+        return false;
+    });
 });
-    
+
+// Função botão copiar descarte
+$(function(){
+    $('#btdescarte').click(function(){
+        $('#textareaDescarte').select();
+        var copiar = document.execCommand('copy');
+        if(copiar){
+            alert('Copiado');
+        }else {
+            alert('Erro ao copiar, mude o navegador');
+        }
+        return false;
+    });
+});
+
+// Função botão copiar estoque
+$(function(){
+    $('#btestoque').click(function(){
+        $('#textareaEstoque').select();
+        var copiar = document.execCommand('copy');
+        if(copiar){
+            alert('Copiado');
+        }else {
+            alert('Erro ao copiar, mude o navegador');
+        }
+        return false;
+    });
+});

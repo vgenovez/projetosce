@@ -1,21 +1,35 @@
+//Total de linhas na tabela
+var linhas = document.querySelectorAll(".asset");
+recebelinhastotal(linhas.length);
+
+//Total de linhas com asset "Nao"
+var assetlinha = document.querySelectorAll(".asset");
+var atsim = 0;    
+var atnao = 0;
+for (var i = 0; i < assetlinha.length; i++){
+    
+    var assetlinhas = assetlinha[i];
+    var atposdoasset = assetlinhas.querySelector(".info-Posdoasset");
+    var atposdoassets = atposdoasset.textContent;
+
+    if (atposdoassets == "SIM"){   
+        atsim += 1;
+    }else{
+        atnao += 1;
+    }
+    recebelinhassim(atsim);
+    recebelinhasnao(atnao);
+}
+
+//Busca no Filtro
 var campoBusca = document.querySelector("#filtrar-tabela");
-var linhas = document.getElementsByTagName('tr');
-
-var count1 = 0;
-var linha = linhas.length;
-console.log(linha);
-
-//Funçao de busca do Filtro
 campoBusca.addEventListener("input", function () {
     var asset = document.querySelectorAll(".asset");
 
     if (this.value.length > 0) {
         for (var i = 0; i < asset.length; i++) {
-
-            var assets = asset[i];
-            console.log(parseInt(assets.length));
-            var count = count1 + i;
-
+        	
+        	var assets = asset[i];
             var recebevalor;
             var mostraFiltro = filtroSelect(recebevalor);
 
@@ -223,7 +237,18 @@ function filtroSelect(recebevalor) {
     return recebevalor;
 }
 
-// Função que aplica o valor das linhas no HTML label
-function recebelinhas(recebelinhas) {
-    document.getElementById("contalinhasTotal").innerHTML = "<label for='linha'>" + recebelinhas + "</label>";
+// Função que aplica o valor das linhas no HTML
+function recebelinhastotal(recebelinhastotal) {
+    document.getElementById("contalinhasTotal").innerHTML = "<label class='lblcontadorIndex' for='linha'>" + recebelinhastotal + "</label>";
 }
+
+function recebelinhassim(recebelinhassim) {
+    document.getElementById("contalinhasatSIM").innerHTML = "<label class='lblcontadorIndex' for='linha'>" + recebelinhassim + "</label>";
+}
+
+function recebelinhasnao(recebelinhasnao) {
+    document.getElementById("contalinhasatNAO").innerHTML = "<label class='lblcontadorIndex' for='linha'>" + recebelinhasnao + "</label>";
+}
+
+
+
