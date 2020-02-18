@@ -140,7 +140,9 @@ public class EstoqueController {
 			
 			estoque.setCham(chamado.getChamados());
 			estoque.setTecatresp(chamado.getNometec());
+			chamado.setChstativo(estoque.getStdoativo());
 			chamado.setEstoque(estoques);
+			
 			
 			er.save(estoque);
 			cr.save(chamado);

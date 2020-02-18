@@ -20,6 +20,8 @@ public class Chamado {
 	
 	private String nometec;
 	
+	private String chstativo;
+	
 	@DateTimeFormat(pattern="dd/MM/yyyy")
 	private Date dtcad;
 	
@@ -71,6 +73,14 @@ public class Chamado {
 
 	public void setDtupt(Date dtupt) {
 		this.dtupt = dtupt;
+	}
+
+	public String getChstativo() {
+		return chstativo;
+	}
+
+	public void setChstativo(String chstativo) {
+		this.chstativo = chstativo;
 	}
 
 	public Estoque getEstoque() {

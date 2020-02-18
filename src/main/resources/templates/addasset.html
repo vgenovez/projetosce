@@ -146,6 +146,7 @@
         <th>Chamado</th>
         <th>Nome do tecnico</th>
         <th>Dt. Cad/Edit</th>
+        <th>St. do Ativo</th>
       </tr>
      </thead>
      <tbody>
@@ -154,6 +155,7 @@
         <td><span th:text="${chamados.nometec}"></span></td>
         <td><span th:text="${#dates.format(chamados.dtcad,'dd-MMM-yyyy')}"></span>
             <span th:text="${#dates.format(chamados.dtupt,'dd-MMM-yyyy')}"></span></td>
+        <td><span th:text="${chamados.chstativo}"></span></td>
       </tr>
      </tbody>
     </table>
