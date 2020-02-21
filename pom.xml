@@ -10,9 +10,12 @@
 	</parent>
 	<groupId>br.ibm.sce</groupId>
 	<artifactId>sce</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.3-SNAPSHOT</version>
+	<packaging>war</packaging>
+	
 	<name>sce</name>
 	<description>Projeto de estoque SCE</description>
+	
 
 	<properties>
 		<java.version>1.8</java.version>
@@ -60,6 +63,12 @@
 		</dependency>
 		
 		<dependency>
+   			<groupId>org.springframework.boot</groupId>
+  			<artifactId>spring-boot-starter-tomcat</artifactId>
+  			<scope>provided</scope>
+		</dependency>
+		
+		<dependency>
   	  		 <groupId>org.thymeleaf.extras</groupId>
     		 <artifactId>thymeleaf-extras-springsecurity5</artifactId>
     		 <version>3.0.4.RELEASE</version>
@@ -67,8 +76,6 @@
 		
 	</dependencies>
 	
-
-
 	<build>
 		<plugins>
 			<plugin>
@@ -77,5 +84,5 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
 </project>
