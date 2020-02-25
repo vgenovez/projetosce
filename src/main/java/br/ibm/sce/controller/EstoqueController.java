@@ -148,4 +148,14 @@ public class EstoqueController {
 			cr.save(chamado);
 			return "redirect:/";
 	}
+	
+	// Mapeia a tela de imprimir	
+	@RequestMapping(value="/termoimp{id}", method=RequestMethod.GET)
+	public ModelAndView termoimp(@PathVariable("id") long id) {
+		Estoque estoques = er.findById(id);
+		ModelAndView mv = new ModelAndView("/termoimp");
+		mv.addObject("estoques", estoques);
+			
+		return mv ;
+	}
 }

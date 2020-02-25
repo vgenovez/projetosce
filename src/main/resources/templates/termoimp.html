@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <title>SCE</title>
+  <link rel="icon" type="image/x-icon" href="img/icone.ico" />
+  <link rel="stylesheet" type="text/css" href="css/termoimp.css" />
+  <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/materialIcons.css"/>
+</head>
+
+<style>    
+  @media print{
+      .print{
+        display: none;
+      }
+  }
+  label{
+    color: black;
+    font-size: 13px;
+  } 
+  span{
+    font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+  }
+  [type="checkbox"]+span:not(.lever){
+  font-size: 13px
+  }
+  </style>
+
+<body>
+  <a href="/" class="btn-floating btn-large waves-effect waves-light green print"><i class="material-icons">keyboard_backspace</i></a>
+  <button onclick="print()" class="btn-floating btn-large waves-effect waves-light red print"><i class="material-icons">print</i></button>
+  <br class="print">  
+  <br class="print">
+  <main>
+	<img src= img/termofast.jpeg > 
+	<img class="right" src= img/termoibm.jpeg >
+	
+    <header>
+        <div class="titulo center">
+            <h7><b>DECLARAÇÃO DE RECEBIMENTO DE EQUIPAMENTOS E TERMO DE RESPONSABILIDADE</b></h7>
+        </div>
+    
+    </header>
+    
+    <div class="labeltop" method="GET" th:each="estoque : ${estoques}">
+      <br>
+      <label>Eu: </label><label th:text="${estoque.usuario}"></label>
+      <label>,Login: </label><label th:text="${estoque.login}"></label>
+      <label>,Localidade: </label><label th:text="${estoque.local}"></label> 
+      <br>
+      <label>RG:__________________________________________</label>
+      <label>CPF:_________________________________________</label>
+      <br>
+      <label>declaro para os devidos fins que recebi da Fast Shop S.A, CNPJ: 43.708.379/0001-00 o(s) equipamento(s) abaixo:</label>
+    </div>
+
+   
+
+    <div class="tabletermoimp" th:each="estoque : ${estoques}">
+     <table>
+      <thead>
+        <tr>
+          <th>Equipamento</th>
+          <th>Modelo</th>
+          <th>Serial</th>
+          <th>Configurações</th>
+          <th>Estado Geral</th>
+          <th>Asset Tag</th>
+        </tr>
+      </thead>
+      <tbody >
+        <tr class="termoDados" th:each="estoque : ${estoques}">
+          <td class="info-Equip"><span th:text="${estoque.tipo}"></span></td>
+          <td class="info-Modelo"><span th:text="${estoque.modelo}"></span></td>
+          <td class="info-Serial"><span th:text="${estoque.serie}"></span></td>
+          <td class="info-Config"><textarea id="textareaConfig">
+Core i5
+Memória de 8GB
+HD de 500GB
+Fonte
+          </textarea></td>
+          <td class="info-EstGeral">
+            <label>
+              <input type="checkbox" class="filled-in"/>
+              <span>NOVO</span>
+            </label>
+            <br>
+            <label>
+              <input type="checkbox" class="filled-in" checked="checked"/>
+              <span>USADO</span>
+            </label>
+          </td>
+          <td class="info-Assetag"><span th:text="${estoque.assettag}"></span></td>
+         </tr>
+      </tbody>
+     </table>
+    </div>
+
+    <div class=checklisttermo>
+      <br>
+      <label class=lblchecklistTermo><b>CHECKLIST DE CONFIGURÕES:</b></label>
+      <br>
+      <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span>Senha de rede expirada</span>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span>Impressora(s) Laser instalada(s)</span>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span>Proxy</span>
+      </label>
+      <br>
+      <label>
+        <input type="checkbox" class="filled-in" checked="checked" />
+        <span>Webmail</span>
+      </label>
+      <br>
+      <br>
+    </div>
+
+    <div id="buttomtermoCiente">
+      <label><b>Ao receber estes equipamentos estou ciente que:</b></label>
+      <br>
+      <label>•	Sou responsável pela guarda dos equipamentos relacionados e que eles deverão ser devolvidos à FAST SHOP, em boas condições, sem adesivos, ao final do meu contrato de trabalho ou mediante solicitação dos responsáveis pela FAST SHOP;</label>
+      <br>
+      <label>•	Os equipamentos são destinados a uso exclusivamente profissional e em atividades da empresa;</label>
+      <br>
+      <label>•	Que os equipamentos não devem ser utilizados fora do horário aprovado pela FAST SHOP;</label>
+      <br>
+      <label>•	Que a posse destes equipamentos não caracteriza que estarei de sobreaviso nem realizando horas extras, a menos que devidamente autorizado;</label>
+      <br>
+      <label>•	Deverei ressarcir à FAST SHOP qualquer dano causado aos equipamentos, excetuando-se o desgaste natural decorrentes do uso em trabalho, devido à negligência, roubo, furto, perda, extravio ou dano decorrente do mau uso (queda, molhamento, sobrecarga elétrica, etc).</label>
+    </div>
+
+    <div class ="buttonAssinatura right">
+      <br>
+      <br>
+      <label>São Paulo, __________ de __________________________ de 20_______</label>
+      <br>
+      <br>
+      <br>
+      <label>Assinatura:  __________________________________________________</label>
+    </div>
+
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+
+  </main>
+</body>
+</html>
