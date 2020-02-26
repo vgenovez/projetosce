@@ -15,6 +15,10 @@
       .print{
         display: none;
       }
+      .html{
+        margin-left: 0px;
+        margin-top: 0px;
+      }
   }
   label{
     color: black;
@@ -29,7 +33,7 @@
   }
   </style>
 
-<body>
+<body class="centered">
   <a href="/" class="btn-floating btn-large waves-effect waves-light green print"><i class="material-icons">keyboard_backspace</i></a>
   <button onclick="print()" class="btn-floating btn-large waves-effect waves-light red print"><i class="material-icons">print</i></button>
   <br class="print">  
@@ -54,10 +58,10 @@
       <label>RG:__________________________________________</label>
       <label>CPF:_________________________________________</label>
       <br>
-      <label>declaro para os devidos fins que recebi da Fast Shop S.A, CNPJ: 43.708.379/0001-00 o(s) equipamento(s) abaixo:</label>
+      <label>declaro para os devidos fins que recebi da Fast Shop S.A, CNPJ: 43.708.379/0001-00 o(s) equipamento(s) abaixo: </label>
+      <br>
+      <br>
     </div>
-
-   
 
     <div class="tabletermoimp" th:each="estoque : ${estoques}">
      <table>
