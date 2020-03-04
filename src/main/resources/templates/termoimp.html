@@ -4,23 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <title>SCE</title>
-  <link rel="icon" type="image/x-icon" href="img/icone.ico" />
-  <link rel="stylesheet" type="text/css" href="css/termoimp.css" />
-  <link rel="stylesheet" type="text/css" href="css/materialize.min.css" />
-  <link rel="stylesheet" type="text/css" href="css/materialIcons.css"/>
+  <link rel="icon" type="image/x-icon" href="/img/icone.ico" />
+  <link rel="stylesheet" type="text/css" href="/css/termoimp.css" />
+  <link rel="stylesheet" type="text/css" href="/css/materialize.min.css" />
+  <link rel="stylesheet" type="text/css" href="/css/materialIcons.css"/>
 </head>
-
+ 
 <style>    
-  @media print{
+  @media print {
       .print{
         display: none;
       }
-  }
-  @page{
+
+  @page {
     size:auto;
     margin:0mm;
     margin-left: 20px;
     margin-top: 30px;
+    
+   }
   }
   
   label{
@@ -31,9 +33,16 @@
     font-family:"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
     font-size: 13px;
   }
+
   [type="checkbox"]+span:not(.lever){
   font-size: 13px
   }
+
+  [type="checkbox"].filled-in:checked + span:not(.lever)::before{
+  border-right: 2px solid red;
+  border-bottom: 2px solid  red;
+  }
+  
   </style>
 
 <body class="centered">
